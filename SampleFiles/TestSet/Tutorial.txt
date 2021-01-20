@@ -1,0 +1,76 @@
+Java Tutorial
+
+Java - What, Where and Why?
+What is Java
+Where Java is used
+Java Applications
+Java Tutorial or Core Java Tutorial or Java Programming Tutorial is a widely used robust technology. Let's start learning of java from basic questions like what is java tutorial, core java, where it is used, what type of applications are created in java and why use java.
+
+What is Java
+
+Java is a programming language and a platform.
+
+Java is a high level, robust, secured and object-oriented programming language.
+
+Platform: Any hardware or software environment in which a program runs, is known as a platform. Since Java has its own runtime environment (JRE) and API, it is called platform.
+
+Java Example
+
+Let's have a quick look at java programming example. A detailed description of hello java example is given in next page.
+
+class Simple{  
+    public static void main(String args[]){  
+     System.out.println("Hello Java");  
+    }  
+}  
+Test it Now
+Where it is used?
+
+According to Sun, 3 billion devices run java. There are many devices where java is currently used. Some of them are as follows:
+
+Desktop Applications such as acrobat reader, media player, antivirus etc.
+Web Applications such as irctc.co.in, javatpoint.com etc.
+Enterprise Applications such as banking applications.
+Mobile
+Embedded System
+Smart Card
+Robotics
+Games etc.
+Types of Java Applications
+
+There are mainly 4 type of applications that can be created using java programming:
+
+1) Standalone Application
+
+It is also known as desktop application or window-based application. An application that we need to install on every machine such as media player, antivirus etc. AWT and Swing are used in java for creating standalone applications.
+
+2) Web Application
+
+An application that runs on the server side and creates dynamic page, is called web application. Currently, servlet, jsp, struts, jsf etc. technologies are used for creating web applications in java.
+
+3) Enterprise Application
+
+An application that is distributed in nature, such as banking applications etc. It has the advantage of high level security, load balancing and clustering. In java, EJB is used for creating enterprise applications.
+
+4) Mobile Application
+
+An application that is created for mobile devices. Currently Android and Java ME are used for creating mobile applications.
+
+
+
+Do You Know ?
+What is the difference between JRE and JVM ?
+What is the purpose of JIT compiler ?
+Can we save the java source file without any name ?
+Why java uses the concept of unicode system ?
+What will we learn in Basics of Java ?
+History of Java
+Features of Java
+Hello Java Program
+Program Internal
+How to set path?
+Difference between JDK,JRE and JVM
+Internal Details of JVM
+Variable and Data Type
+Unicode System
+Operators

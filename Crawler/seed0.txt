@@ -1,0 +1,5 @@
+https://www.cs.rochester.edu/~nelson/courses/csc_173/fa/fa.html
+
+http://www.cs.odu.edu/~toida/nerzic/390teched/regular/fa/intr_2_fa.html
+http://www.cs.odu.edu/~toida/nerzic/390teched/regular/fa/dfa-definitions.html
+http://www.ics.uci.edu/~eppstein/161/960222.html

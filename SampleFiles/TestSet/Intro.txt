@@ -1,0 +1,32 @@
+Introduction to Java
+
+1.1. History
+
+Java is a programming language created by James Gosling from Sun Microsystems (Sun) in 1991. The first publicly available version of Java (Java 1.0) was released in 1995.
+
+Sun Microsystems was acquired by the Oracle Corporation in 2010. Oracle has now the steermanship for Java.
+
+Over time new enhanced versions of Java have been released. The current version of Java is Java 1.7 which is also known as Java 7.
+
+From the Java programming language the Java platform evolved. The Java platform allows software developers to write program code in other languages than the Java programming language which still runs on the Java virtual machine. The Java platform is usually associated with the Java virtual machine and the Java core libraries.
+
+1.2. Java and Open Source
+
+In 2006 Sun started to make Java available under the GNU General Public License (GPL). Oracle continues this project called OpenJDK.
+
+1.3. Java virtual machine
+
+The Java virtual machine (JVM) is a software implementation of a computer that executes programs like a real machine.
+
+The Java virtual machine is written specifically for a specific operating system, e.g., for Linux a special implementation is required as well as for Windows.
+
+
+Java programs are compiled by the Java compiler into bytecode. The Java virtual machine interprets this bytecode and executes the Java program.
+
+1.4. Java Runtime Environment vs. Java Development Kit
+
+A Java distribution typically comes in two flavors, the Java Runtime Environment (JRE) and the Java Development Kit (JDK).
+
+The Java runtime environment (JRE) consists of the JVM and the Java class libraries. Those contain the necessary functionality to start Java programs.
+
+The JDK additionally contains the development tools necessary to create Java programs. The JDK therefore consists of a Java compiler, the Java virtual machine and the Java class libraries.

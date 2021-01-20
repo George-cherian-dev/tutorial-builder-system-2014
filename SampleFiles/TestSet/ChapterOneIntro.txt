@@ -1,0 +1,18 @@
+Chapter One
+Introduction
+
+
+As it stands today every time we need to gather information about any topic we need to look for data across multiple sites, read through pages and pages of data which are scattered over a host of different websites. Even sites which have data in a single place only deal with giving information which is not easy to use or understand and often prone to human errors during editing.
+The Tutorial Builder System that we propose will be used to gather data from different places over the internet and compile all of this data into a set of chapters and data which is easy to understand for the user.
+1.1.	Objective
+The Tutorial Builder System will take data from multiple sources and combine them into a bank with the data following which the system will read the data from the various sources and strip it down, clean the data up and merge it with data from other sources to get a final version of the data which is user friendly and easy to understand. With this we can eliminate the need to go through multiple web pages to understand or learn a topic with all the information being consolidated in a single space.
+1.2.	Problem Statement
+The Tutorial Builder System is a software based system which will use data collection algorithms, data ranking algorithms, word processing  and data merging algorithms to find the data regarding a certain topic and then sort through the data on the topic, combine all of the data in a easy to understand and intuitive manner.
+Once the data is put into a database we will proceed to take a apart the data and then convert it back into a properly formed tutorial.
+The user will give an input to the system in the form of the topic for which they want the tutorial and preferably the stream under which the tutorial comes followed by which our system will search through the databank for the appropriate tutorial and give it to the user to read the data from the databank.
+The back end of the system will compile the data for the databank, by reading the data from various sources and then processing them appropriately and storing the data within the databank.
+1.3.	Scope
+The scope of this project would be the gathering of data from the internet and checking its relevance, followed by the ranking of gathered data and storing into a database. The data stored in the database will then have to be appropriately processed and combined with other data from various sources and then put into a databank from where the GUI will read the data and present it to the user.
+1.4.	Applications
+The Tutorial Builder System will have a wide variety of applications in any and all fields. When successfully implemented the system can make learning any subject easier. Instead of the user going to the trouble of accessing multiple sites the system will provide the user with a one stop destination for information about any topic needed by the user.
+Currently we plan to implement this system from a computer science standpoint taking into account mostly topics which are within the domain of computer science.

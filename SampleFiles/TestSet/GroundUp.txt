@@ -1,0 +1,181 @@
+So, you want to program in Java? That's great, and you've come to the right place. This column will give you a complete education on Java programming, starting with the basics, and covering all of the core concepts you need to become productive in the language. This column will be technical, with plenty of code examples to help you along. I'll assume that you already have some programming experience.
+
+I'll start off with a short overview of what Java is and how it works, move on to basic coverage of some object-oriented programming concepts, and then jump right into creating Java classes -- the heart of Java programming.
+
+I'll try to give examples and instructions that are as platform-neutral as possible, but I'll default to the Windows platform when necessary. Unix users should have an easy time interpreting these examples for the Unix world. Mac and other users will have to work a little harder (our apologies).
+
+High-level overview of Java
+
+Java is a general-purpose, object-oriented language that looks a lot like C and C++. Its design, however, was built on those of its predecessors, making it easier, safer, and more productive than C++. While Java started out as a niche language for developing applets or small programs that run in Web browsers, it has evolved to arguably become the most important programming language for developing ecommerce and other Web-driven applications. Its area of use is growing daily and includes dynamic Web-content generation with servlet technology, the building of business components with Enterprise JavaBeans, the creation of cross-platform user interfaces with Swing, and much more. Portable, distributed, multitier, object-oriented programs driven by the Web are the order of the day, and there is no language better than Java for writing these programs.
+
+The Java Virtual Machine
+
+Let's take a look at a central component of the Java architecture, the Java Virtual Machine (JVM). The JVM is what gives Java its cross-platform functionality and many of its security and safety capabilities. The JVM is basically an abstract computer implemented in software. I'll focus mainly on its instruction set, which is called bytecode. Bytecode is an intermediate language between Java source and the target computer you want to run on. The following figure demonstrates how it works at a very high level.
+
+
+From Java source to bytecode to host machine code
+Programs are written in Java and stored in .java files (for example, MyClass.java)
+The .java files are compiled by the Java compiler into bytecode and stored in .class files (for example, MyClass.class)
+The JVM loads the bytecode (the .class files), performs some checks on it, and then converts it to the machine code of the target platform that executes it
+This is where Java gets its platform independence. The bytecode format is the same on all platforms because it runs in the same abstract machine -- the JVM. As long as there is a JVM on any given platform, you can run Java on it. There's an old saying in computer programming, "You can solve any problem with another level of indirection." The JVM and bytecode together is another level of indirection.
+
+That's about it on the JVM for now. If you want to know more, check out Sun's JVM specification in the Resources section below.
+
+Setting up Java on your system
+
+The first thing you need is the Java 2 Software Development Kit or SDK (formerly known as the Java Development Kit, or JDK). This is a set of software and software tools supplied by Sun that includes all of the basic components needed to build Java programs. If you don't have this, you'll need to download the Java 2 SDK from Sun (see Resources below). Here's a brief description of what you need to do to install version 1.2.x for the Windows platform:
+
+For Windows, the download will be a self-extracting archive, and the file name follows the form: jdk<version>-win.exe. For example, for version 1.2.2, the file is named jdk1_2_2-win.exe.
+Execute the program to install the Java 2 SDK.
+You can execute it by typing its name at a command prompt.
+You can double-click it from Explorer.
+On Windows, the default installation directory is C:\JDK1.2.x
+You must set up your environment correctly
+Your path must be set to include the bin subdirectory
+For example, if you installed the Java 2 SDK in C:\JDK1.2.x, you must include C:\JDK1.2.x\bin in your path
+If you are using Windows 95/98, you can do this in autoexec.bat
+If you are using Windows NT, go to Control Panel, System, Environment
+You can set environment variables in the dialog box there
+There are other parts of the environment that are important, especially the CLASSPATH environment variable. I'll discuss this in future columns.
+It's also important to download the javadoc HTML documentation for the core API classes. This is a separate download, in zip format, and the filename is in the form of jdk<version>-doc.zip (for example, jdk1_2_2-doc.zip).
+The javadoc HTML documentation should be unzipped into the Java 2 SDK installation directory
+Note that the zip file has a directory structure within it, so that unzipping it into C:\ will place all of the files at the root directory C:\JDK1.2.x\docs, which is a good place for them.
+The following tools will be used to create and run our first program:
+
+javac: the Java compiler that converts Java source to bytecode
+java: the Java Virtual Machine
+How to write a Java program
+
+OK, it's time to write our first Java program. A Java program looks like this:
+
+public class MyProgram {
+  public static void main(String[] args) {
+    System.out.println(
+      "Eureka, I can put Java on my resume.");
+  }
+}
+A Java program is a class with a main method in it. The main method is a special method that is the starting point for every Java application. It has to be declared exactly as above, and it has to appear within a class, as the above example also shows. System.out.println is the magic incantation you use to get things sent to the console.
+
+This code example is for a standalone, nongraphical Java program that prints the string Eureka, I can put Java on my resume. to the console. Your salary can double now, so if you want, you can stop here. Those that want to learn more can keep going.
+
+Type the above program into a file named MyProgram.java. It's a good idea to put it in its own directory just to keep things organized. Use your favorite text editor for this, or check out the Resources section for some of my favorites. Once you've done that, go to a command line that is open to the location your file is in.
+
+Type in the following code to compile the file. (This generates the .class file from the .java file):
+
+javac MyProgram.java
+Once it compiles without errors, do a directory listing to see that you've generated a MyProgram.class file. (Hey -- that's the bytecode.)
+
+Now type the following to run the program:
+
+java MyProgram
+This executes the JVM, and makes it run the bytecode in the MyProgram.class file. You should see the following output on your screen:
+
+Eureka, I can put Java on my resume.
+Congratulations! You've generated your first Java program.
+
+There are a couple of things you should notice. The Java compiler (javac) requires that you include the .java extension for the files you're compiling. It's just a program, and that's what it expects you to give it. The JVM (java) does not expect you to include the .class extension. Try typing java MyProgram.class, and you'll get an error message because it will look for a file called MyProgram.class.class. Note also that things are set up in such a way that you have to do everything from one directory.
+
+Object-oriented programming (OOP)
+
+Object-oriented programming is the key organizational factor in using Java well. Simply put, this means that you organize your program around objects. What's an object? It's a representation of some concept or thing. This is a powerful model because it reflects the way we think about the world, and the way we conceptualize it using language.
+
+Here are the key characteristics that define an object:
+
+Behavior: What an object can do, or what can be done to it
+Properties: Data or information associated with an object (often called state)
+Type: The kind (or class) of thing an object is
+Identity: The unique existence of every object, independent of its characteristics
+You might see object described elsewhere using different terminology, but don't worry too much about that. Grasping the concepts is the important thing.
+
+Let's further explore the notion of type. We're almost always dealing with many different objects, and the natural inclination is to classify or label them in some way. A type is the way to classify objects, and it's also the blueprint that defines the behavior and properties for objects of a certain type.
+
+Here are some real-world examples of different types from different areas:
+
+Concrete: Person, car, alarm clock, planet, star
+Conceptual: Number, democracy
+Events: General protection fault, earthquake
+Every object has a type associated with it, and possibly more than one type. Creating types and classifying your objects is one of the arts of OOP, and there is no single "correct" way to do this.
+
+Let's examine the alarm clock type. We'll take a crack at determining its behavior and properties.
+
+Alarm clock properties: Current time, alarm time
+Alarm clock behavior: Ring, snooze, turn alarm on or off
+Alarm clock property-related behavior: Get and set current time; get and set alarm time
+We've made a bit of a distinction here between general behavior, and behavior that is just related to getting and setting properties. We'll talk more about this later when we delve into the best way to actually program a type.
+
+How do we use this type? Easy. We buy an alarm clock and bring it home. We set the current time and the alarm time. When it rings, we hit the snooze button (repeat five to six times), and we finally turn the alarm off and get out of bed.
+
+The system depicted in this example is the core of OOP. We have types that represent the different kinds of things in our system, (the alarm clock type), and we have objects that are instances or examples of the types (we bought a particular alarm clock). Objects interact through their behaviors, sometimes resulting in changes in their properties, and ultimately (hopefully) do useful work. C'mon, you already knew this, otherwise you wouldn't be able to use your alarm clock, and you'd never get to work on time. Rewrite your resume -- you're an object-oriented programmer.
+
+OOP and Java
+
+We've been talking abstractly until now about OOP. Let's shift back and see how OOP is done in Java. A class is used to define a new type in Java, and classes are central to the language. Everything happens within classes. All executable code exists in classes (generally in methods), and all data appears within a class (in variables within a class, and in variables in methods).
+
+Classes are defined in a class definition. Here's a (simple and incomplete) definition for an AlarmClock class.
+
+public class AlarmClock {
+}
+The class keyword introduces the class
+AlarmClock is the name of the class
+{ starts the class body
+The data and methods are declared within the class body
+} ends the class definition
+We'll look at what public means shortly
+It's time to create your first class, albeit one that doesn't do much yet. It will soon, though. Create a file called AlarmClock.java, and put in the code for the class definition above. Compile it using javac.
+
+javac AlarmClock.java
+Note that when a class definition starts with the keyword public, Java requires you to put the class definition (the Java source) into a file that starts with the name of the class. Hence, we name our file AlarmClock.java because the class name is AlarmClock.
+
+What can we do with this? Have we actually created an AlarmClock? Nope. Remember that a class (that defines a type in Java) is a blueprint for an object, but it's not the actual object. A class definition is like a cookie cutter, but it's not a cookie. You create cookies by cutting some dough with the cookie cutter. Similarly, we have to cut some objects from memory to create them. You create or instantiate objects in Java with an operator called new followed by the name of the class for which you want to create an instance. The syntax looks like this:
+
+new AlarmClock();
+This creates an alarm clock off the heap. There's still a problem here, however. Unlike cookies we can just pick up and put on a cookie sheet (and then pick up and eat), objects float around in a computer's memory, and we need to have a way to get to them. Java uses special variables called object references to refer to objects. You can initialize a reference to refer to a given object, and then use the reference to interact with that object. Here's what this looks like:
+
+AlarmClock aClock = new AlarmClock();
+The first AlarmClock declares the type of the variable; aClock is the name of the variable; and new AlarmClock() creates a new alarm clock that is then used to initialize aClock.
+
+Just for fun, let's add a little behavior to our alarm clock. You add behavior in methods. We'll add the snooze method, which will just print a message to the console as our first program did. Methods go inside classes, and here's what one looks like:
+
+public void snooze() {
+    System.out.println("ZZZZZ");
+}
+When we put it in our AlarmClock class, we get the following:
+
+public class AlarmClock {
+    public void snooze() {
+        System.out.println("ZZZZZ");
+    }
+}
+Does AlarmClock.java contain a program? No, it doesn't, because there is no main method in class AlarmClock. Remember that a Java program is just a class with a main method in it.
+
+Let's create another program called AlarmClockTest. This just means we'll create a class AlarmClockTest with a main method in it. We'll create an instance of AlarmClock in this program.
+
+public class AlarmClockTest {
+    public static void main(String[] args) {
+      AlarmClock aClock = new AlarmClock();
+    }
+}
+Last, but not least, we want to do work with this alarm clock. The way you tell an object to do something is by calling, or, invoking, one of its methods. You generally do this through the variable that refers to it, and you use the dot operator for this. All we can do is snooze with this clock, but hey, that's everybody's favorite action with an alarm clock anyway. Here's what the code looks like:
+
+public class AlarmClockTest {
+     public static void main(String[] args) {
+         AlarmClock aClock = new AlarmClock();
+         aClock.snooze();
+     }
+}
+Ready? Create AlarmClockTest.java, and type in the code above. Compile it (javac AlarmClockTest.java) as well as AlarmClock.java. You're ready to run your new program. The main method is in AlarmClockTest class, so this is how you run the program:
+
+java AlarmClockTest
+You should see ZZZZZ printed out on the command line. Congratulations, you've now completed your second Java program!
+
+Review
+
+We covered quite a bit here. We looked at the roots of Java, and some of its underlying architecture. We've examined the basics of object-oriented programming and how you use OOP in Java. We also created a Java class, and we've written a couple of short Java programs.
+
+We skipped over a lot of detail and moved very quickly so we could get to some of the more interesting aspects of Java programming, like creating classes and calling methods, in this first column. I'll be going into much more detail on all of this in the future.
+
+In my next column, I'll look at more OOP concepts, such as encapsulation and abstraction, and expand on how you can use data/variables in Java. We'll add more functionality to our AlarmClock class, and we'll begin to look at how to build classes.
+
+For homework, you can take a look at the documentation that comes with Java. You did install that on your system, right? If you installed Java in C:\jdk1.2.2, then the API docs are in file:///C:/Apps/java/docs/api/index.html. Go there and look for the String and Calendar classes in the frame titled "All Classes." We'll be using both of these classes soon, and it's a good idea to start getting used to this documentation. It will be your friend. Enjoy!
+
+Jacob Weintraub is founder and president of LearningPatterns.com (LPc). Jacob has been working in object technologies since 1989, and teaching Java since 1995. He authored LPc's Java for Programmers, as well as many of its advanced courses, such as those on OOAD and EJB.

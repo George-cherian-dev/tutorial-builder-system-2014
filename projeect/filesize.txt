@@ -1,0 +1,1225 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" class="client-nojs">
+<head>
+<meta charset="UTF-8" />
+<title>Intel 8085 - Wikipedia, the free encyclopedia</title>
+<meta name="generator" content="MediaWiki 1.26wmf2" />
+<link rel="alternate" href="android-app://org.wikipedia/http/en.m.wikipedia.org/wiki/Intel_8085" />
+<link rel="alternate" type="application/x-wiki" title="Edit this page" href="/w/index.php?title=Intel_8085&amp;action=edit" />
+<link rel="edit" title="Edit this page" href="/w/index.php?title=Intel_8085&amp;action=edit" />
+<link rel="apple-touch-icon" href="//bits.wikimedia.org/apple-touch/wikipedia.png" />
+<link rel="shortcut icon" href="//bits.wikimedia.org/favicon/wikipedia.ico" />
+<link rel="search" type="application/opensearchdescription+xml" href="/w/opensearch_desc.php" title="Wikipedia (en)" />
+<link rel="EditURI" type="application/rsd+xml" href="//en.wikipedia.org/w/api.php?action=rsd" />
+<link rel="alternate" hreflang="x-default" href="/wiki/Intel_8085" />
+<link rel="copyright" href="//creativecommons.org/licenses/by-sa/3.0/" />
+<link rel="alternate" type="application/atom+xml" title="Wikipedia Atom feed" href="/w/index.php?title=Special:RecentChanges&amp;feed=atom" />
+<link rel="canonical" href="http://en.wikipedia.org/wiki/Intel_8085" />
+<link rel="stylesheet" href="//bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&amp;lang=en&amp;modules=ext.gadget.DRN-wizard%2CReferenceTooltips%2Ccharinsert%2Cfeatured-articles-links%2CrefToolbar%2Cswitcher%2Cteahouse%7Cext.rtlcite%2Cwikihiero%2CwikimediaBadges%7Cext.uls.nojs%7Cext.visualEditor.viewPageTarget.noscript%7Cmediawiki.legacy.commonPrint%2Cshared%7Cmediawiki.sectionAnchor%7Cmediawiki.skinning.interface%7Cmediawiki.ui.button%7Cskins.vector.styles%7Cwikibase.client.init&amp;only=styles&amp;skin=vector&amp;*" />
+<meta name="ResourceLoaderDynamicStyles" content="" />
+<link rel="stylesheet" href="//bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&amp;lang=en&amp;modules=site&amp;only=styles&amp;skin=vector&amp;*" />
+<style>a:lang(ar),a:lang(kk-arab),a:lang(mzn),a:lang(ps),a:lang(ur){text-decoration:none}
+/* cache key: enwiki:resourceloader:filter:minify-css:7:3904d24a08aa08f6a68dc338f9be277e */</style>
+<script src="//bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&amp;lang=en&amp;modules=startup&amp;only=scripts&amp;skin=vector&amp;*"></script>
+<script>if(window.mw){
+mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Intel_8085","wgTitle":"Intel 8085","wgCurRevisionId":658705370,"wgRevisionId":658705370,"wgArticleId":97302,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Use mdy dates from October 2011","Articles needing additional references from June 2010","All articles needing additional references","All articles with unsourced statements","Articles with unsourced statements from October 2014","Articles with unsourced statements from February 2011","Intel x86 microprocessors","Intel microprocessors"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Intel_8085","wgRelevantArticleId":97302,"wgIsProbablyEditable":true,"wgRestrictionEdit":[],"wgRestrictionMove":[],"wgWikiEditorEnabledModules":{"toolbar":true,"dialogs":true,"hidesig":true,"preview":false,"publish":false},"wgMediaViewerOnClick":true,"wgMediaViewerEnabledByDefault":true,"wgVisualEditor":{"pageLanguageCode":"en","pageLanguageDir":"ltr"},"wikilove-recipient":"","wikilove-anon":0,"wgGatherShouldShowTutorial":true,"wgGatherPageImageThumbnail":"//upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Intel_8085A_Die_CPU_Image.jpg/100px-Intel_8085A_Die_CPU_Image.jpg","wgPoweredByHHVM":true,"wgULSAcceptLanguageList":[],"wgULSCurrentAutonym":"English","wgBetaFeaturesFeatures":[],"wgFlaggedRevsParams":{"tags":{"status":{"levels":1,"quality":2,"pristine":3}}},"wgStableRevisionId":null,"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}","wgNoticeProject":"wikipedia","wgWikibaseItemId":"Q468451"});
+}</script><script>if(window.mw){
+mw.loader.implement("user.options",function($,jQuery){mw.user.options.set({"variant":"en"});});mw.loader.implement("user.tokens",function($,jQuery){mw.user.tokens.set({"editToken":"+\\","patrolToken":"+\\","watchToken":"+\\"});});
+/* cache key: enwiki:resourceloader:filter:minify-js:7:a5c52c063dc436c1ca7c9f456936a5e9 */
+}</script>
+<script>if(window.mw){
+mw.loader.load(["mediawiki.page.startup","mediawiki.legacy.wikibits","mediawiki.legacy.ajax","ext.centralauth.centralautologin","mmv.head","ext.imageMetrics.head","ext.visualEditor.viewPageTarget.init","ext.uls.init","ext.uls.interface","ext.centralNotice.bannerController","skins.vector.js"]);
+}</script>
+<link rel="dns-prefetch" href="//meta.wikimedia.org" />
+<!--[if lt IE 7]><style type="text/css">body{behavior:url("/w/static-1.26wmf2/skins/Vector/csshover.min.htc")}</style><![endif]-->
+</head>
+<body class="mediawiki ltr sitedir-ltr ns-0 ns-subject page-Intel_8085 skin-vector action-view">
+		<div id="mw-page-base" class="noprint"></div>
+		<div id="mw-head-base" class="noprint"></div>
+		<div id="content" class="mw-body" role="main">
+			<a id="top"></a>
+
+							<div id="siteNotice"><!-- CentralNotice --></div>
+						<div class="mw-indicators">
+</div>
+			<h1 id="firstHeading" class="firstHeading" lang="en">Intel 8085</h1>
+						<div id="bodyContent" class="mw-body-content">
+									<div id="siteSub">From Wikipedia, the free encyclopedia</div>
+								<div id="contentSub"></div>
+												<div id="jump-to-nav" class="mw-jump">
+					Jump to:					<a href="#mw-head">navigation</a>, 					<a href="#p-search">search</a>
+				</div>
+				<div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr"><table class="metadata plainlinks ambox ambox-content ambox-Refimprove" role="presentation">
+<tr>
+<td class="mbox-image">
+<div style="width:52px"><a href="/wiki/File:Question_book-new.svg" class="image"><img alt="" src="//upload.wikimedia.org/wikipedia/en/thumb/9/99/Question_book-new.svg/50px-Question_book-new.svg.png" width="50" height="39" srcset="//upload.wikimedia.org/wikipedia/en/thumb/9/99/Question_book-new.svg/75px-Question_book-new.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/9/99/Question_book-new.svg/100px-Question_book-new.svg.png 2x" data-file-width="262" data-file-height="204" /></a></div>
+</td>
+<td class="mbox-text"><span class="mbox-text-span">This article <b>needs additional citations for <a href="/wiki/Wikipedia:Verifiability" title="Wikipedia:Verifiability">verification</a></b>. <span class="hide-when-compact">Please help <a class="external text" href="//en.wikipedia.org/w/index.php?title=Intel_8085&amp;action=edit">improve this article</a> by <a href="/wiki/Help:Introduction_to_referencing/1" title="Help:Introduction to referencing/1">adding citations to reliable sources</a>. Unsourced material may be challenged and removed.</span> <small><i>(June 2010)</i></small></span></td>
+</tr>
+</table>
+<table class="infobox" style="width:22em">
+<caption>Intel 8085</caption>
+<tr>
+<td colspan="2" style="text-align:center"><a href="/wiki/File:KL_Intel_P8085AH.jpg" class="image"><img alt="KL Intel P8085AH.jpg" src="//upload.wikimedia.org/wikipedia/commons/thumb/5/52/KL_Intel_P8085AH.jpg/220px-KL_Intel_P8085AH.jpg" width="220" height="100" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/5/52/KL_Intel_P8085AH.jpg/330px-KL_Intel_P8085AH.jpg 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/5/52/KL_Intel_P8085AH.jpg/440px-KL_Intel_P8085AH.jpg 2x" data-file-width="1551" data-file-height="708" /></a>
+<div>An Intel 8085AH processor.</div>
+</td>
+</tr>
+<tr>
+<th scope="row" style="text-align:left">Produced</th>
+<td>From 1977 to 1990s</td>
+</tr>
+<tr>
+<th scope="row" style="text-align:left">Common manufacturer(s)</th>
+<td>
+<div class="plainlist">
+<ul>
+<li>Intel and several others</li>
+</ul>
+</div>
+</td>
+</tr>
+<tr>
+<th scope="row" style="text-align:left">Max. <a href="/wiki/Central_processing_unit" title="Central processing unit">CPU</a> <a href="/wiki/Clock_rate" title="Clock rate">clock rate</a></th>
+<td>3, 5 and 6&#160;MHz</td>
+</tr>
+<tr>
+<th scope="row" style="text-align:left">Min. feature size</th>
+<td>3&#160;<a href="/wiki/%CE%9Cm" title="Μm" class="mw-redirect">μm</a></td>
+</tr>
+<tr>
+<th scope="row" style="text-align:left"><a href="/wiki/Instruction_set" title="Instruction set">Instruction set</a></th>
+<td>8080</td>
+</tr>
+<tr>
+<th scope="row" style="text-align:left">Predecessor</th>
+<td><a href="/wiki/Intel_8080" title="Intel 8080">Intel 8080</a></td>
+</tr>
+<tr>
+<th scope="row" style="text-align:left">Successor</th>
+<td><a href="/wiki/Intel_8086" title="Intel 8086">Intel 8086</a></td>
+</tr>
+<tr>
+<th scope="row" style="text-align:left">Package(s)</th>
+<td>
+<div class="plainlist">
+<ul>
+<li>40 pin <a href="/wiki/Dual_in-line_package" title="Dual in-line package">DIP</a></li>
+</ul>
+</div>
+</td>
+</tr>
+</table>
+<p>The <b>Intel 8085</b> ("<i>eighty-eighty-five</i>") is an <a href="/wiki/8-bit" title="8-bit">8-bit</a> <a href="/wiki/Microprocessor" title="Microprocessor">microprocessor</a> introduced by <a href="/wiki/Intel" title="Intel">Intel</a> in 1977.<sup class="noprint Inline-Template Template-Fact" style="white-space:nowrap;">[<i><a href="/wiki/Wikipedia:Citation_needed" title="Wikipedia:Citation needed"><span title="This claim needs references to reliable sources. (October 2014)">citation needed</span></a></i>]</sup> It was backward <a href="/wiki/Binary_code_compatibility" title="Binary code compatibility">binary compatible</a> with the more-famous <a href="/wiki/Intel_8080" title="Intel 8080">Intel 8080</a> (only adding a few minor instructions) but required less supporting hardware, thus allowing simpler and less expensive <a href="/wiki/Microcomputer" title="Microcomputer">microcomputer</a> systems to be built.</p>
+<p>The "5" in the model number came from the fact that the 8085 requires only a +5-<a href="/wiki/Volt" title="Volt">Volt</a> (V) power supply by using <a href="/wiki/Depletion-load_NMOS_logic" title="Depletion-load NMOS logic">depletion mode</a> transistors, rather than requiring the +5&#160;V, −5&#160;V and +12&#160;V supplies the 8080 needed. This is similar to the competing <a href="/wiki/Z80" title="Z80" class="mw-redirect">Z80</a> (also 8080-derived) introduced the year before. These processors were sometimes used in computers running the <a href="/wiki/CP/M_operating_system" title="CP/M operating system" class="mw-redirect">CP/M operating system</a>.</p>
+<p>The Intel 8085 required at least an external ROM and RAM and an 8 bit address latch (both latches combined in the Intel 8755 2Kx8 EPROM / 2x8 I/O, Intel 8155 256-byte RAM and 22 I/O and 14 bit programmable Timer/Counter) so cannot technically be called a <a href="/wiki/Microcontroller" title="Microcontroller">microcontroller</a>.This microprocessor has a 16 bit address bus and an 8 bit data bus.</p>
+<p>Both designs (8080/8085) were eclipsed for desktop computers by the compatible <a href="/wiki/Zilog_Z80" title="Zilog Z80">Zilog Z80</a>, which took over most of the CP/M computer market as well as taking a share of the booming <a href="/wiki/Home_computer" title="Home computer">home computer</a> market in the early-to-mid-1980s.</p>
+<p>The 8085 had a long life as a controller. Once designed into such products as the <a href="/wiki/DECtape" title="DECtape">DECtape</a> controller and the <a href="/wiki/VT102" title="VT102" class="mw-redirect">VT102</a> video terminal in the late 1970s, it served for new production throughout the life span of those products (generally longer than the product life of desktop computers).</p>
+<div class="thumb tright">
+<div class="thumbinner" style="width:222px;"><a href="/wiki/File:Intel_8085A_Die_CPU_Image.jpg" class="image"><img alt="" src="//upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Intel_8085A_Die_CPU_Image.jpg/220px-Intel_8085A_Die_CPU_Image.jpg" width="220" height="159" class="thumbimage" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Intel_8085A_Die_CPU_Image.jpg/330px-Intel_8085A_Die_CPU_Image.jpg 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Intel_8085A_Die_CPU_Image.jpg/440px-Intel_8085A_Die_CPU_Image.jpg 2x" data-file-width="482" data-file-height="348" /></a>
+<div class="thumbcaption">
+<div class="magnify"><a href="/wiki/File:Intel_8085A_Die_CPU_Image.jpg" class="internal" title="Enlarge"></a></div>
+Intel 8085A CPU Die</div>
+</div>
+</div>
+<p></p>
+<div id="toc" class="toc">
+<div id="toctitle">
+<h2>Contents</h2>
+</div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#Description"><span class="tocnumber">1</span> <span class="toctext">Description</span></a>
+<ul>
+<li class="toclevel-2 tocsection-2"><a href="#Programming_model"><span class="tocnumber">1.1</span> <span class="toctext">Programming model</span></a></li>
+<li class="toclevel-2 tocsection-3"><a href="#Commands.2Finstructions"><span class="tocnumber">1.2</span> <span class="toctext">Commands/instructions</span></a>
+<ul>
+<li class="toclevel-3 tocsection-4"><a href="#8-bit_instructions"><span class="tocnumber">1.2.1</span> <span class="toctext">8-bit instructions</span></a></li>
+<li class="toclevel-3 tocsection-5"><a href="#16-bit_operations"><span class="tocnumber">1.2.2</span> <span class="toctext">16-bit operations</span></a></li>
+</ul>
+</li>
+<li class="toclevel-2 tocsection-6"><a href="#Input.2Foutput_scheme"><span class="tocnumber">1.3</span> <span class="toctext">Input/output scheme</span></a></li>
+<li class="toclevel-2 tocsection-7"><a href="#Development_system"><span class="tocnumber">1.4</span> <span class="toctext">Development system</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-8"><a href="#Applications"><span class="tocnumber">2</span> <span class="toctext">Applications</span></a></li>
+<li class="toclevel-1 tocsection-9"><a href="#MCS-85_family"><span class="tocnumber">3</span> <span class="toctext">MCS-85 family</span></a></li>
+<li class="toclevel-1 tocsection-10"><a href="#Educational_use"><span class="tocnumber">4</span> <span class="toctext">Educational use</span></a></li>
+<li class="toclevel-1 tocsection-11"><a href="#Simulators"><span class="tocnumber">5</span> <span class="toctext">Simulators</span></a></li>
+<li class="toclevel-1 tocsection-12"><a href="#See_also"><span class="tocnumber">6</span> <span class="toctext">See also</span></a></li>
+<li class="toclevel-1 tocsection-13"><a href="#References"><span class="tocnumber">7</span> <span class="toctext">References</span></a></li>
+<li class="toclevel-1 tocsection-14"><a href="#External_links"><span class="tocnumber">8</span> <span class="toctext">External links</span></a></li>
+</ul>
+</div>
+<p></p>
+<h2><span class="mw-headline" id="Description">Description</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Intel_8085&amp;action=edit&amp;section=1" title="Edit section: Description">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<div class="thumb tright">
+<div class="thumbinner" style="width:222px;"><a href="/wiki/File:Intel_8085_arch.svg" class="image"><img alt="" src="//upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Intel_8085_arch.svg/220px-Intel_8085_arch.svg.png" width="220" height="199" class="thumbimage" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Intel_8085_arch.svg/330px-Intel_8085_arch.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Intel_8085_arch.svg/440px-Intel_8085_arch.svg.png 2x" data-file-width="975" data-file-height="881" /></a>
+<div class="thumbcaption">
+<div class="magnify"><a href="/wiki/File:Intel_8085_arch.svg" class="internal" title="Enlarge"></a></div>
+i8085 microarchitecture.</div>
+</div>
+</div>
+<p>The 8085 is a conventional <a href="/wiki/Von_Neumann_architecture" title="Von Neumann architecture">von Neumann</a> design based on the Intel 8080. Unlike the 8080 it does not multiplex state signals onto the data bus, but the 8-bit <a href="/wiki/Bus_(computing)" title="Bus (computing)">data bus</a> was instead multiplexed with the lower part of the 16-bit <a href="/wiki/Address_bus" title="Address bus">address bus</a> to limit the number of pins to 40. Pin No. 40 is used for the power supply (+5&#160;V) and pin No. 20 for ground. Pin No. 39 is used as the hold pin. Pins No. 15 to No. 8 are generally used for address buses. The processor was designed using <a href="/wiki/NMOS_logic" title="NMOS logic">nMOS</a> circuitry and the later "H" versions were implemented in Intel's enhanced nMOS process called HMOS, originally developed for fast static RAM products. Only a 5 volt supply is needed, like competing processors and unlike the 8080. The 8085 uses approximately 6,500 <a href="/wiki/Transistor" title="Transistor">transistors</a>.<sup id="cite_ref-1" class="reference"><a href="#cite_note-1"><span>[</span>1<span>]</span></a></sup></p>
+<p>The 8085 incorporates the functions of the 8224 (clock generator) and the 8228 (system controller), increasing the level of integration. A downside compared to similar contemporary designs (such as the Z80) was the fact that the buses required demultiplexing; however, address latches in the Intel 8155, 8355, and 8755 memory chips allowed a direct interface, so an 8085 along with these chips was almost a complete system.</p>
+<p>The 8085 has extensions to support new interrupts, with three maskable vectored interrupts (RST 7.5, RST 6.5 and RST 5.5), one <a href="/wiki/Non-maskable_interrupt" title="Non-maskable interrupt">non-maskable interrupt</a> (TRAP), and one externally serviced interrupt (INTR). The RST n.5 interrupts refer to actual pins on the processor, a feature which permitted simple systems to avoid the cost of a separate interrupt controller. Interrupts are enabled by the EI instruction and disabled by the DI instruction.</p>
+<p>Like the 8080, the 8085 can accommodate slower memories through externally generated <a href="/wiki/Wait_state" title="Wait state">wait states</a> (pin 35, READY), and has provisions for <a href="/wiki/Direct_Memory_Access" title="Direct Memory Access" class="mw-redirect">Direct Memory Access</a> (DMA) using HOLD and HLDA signals (pins 39 and 38). An improvement over the 8080 was that the 8085 can itself drive a <a href="/wiki/Piezoelectric_crystal" title="Piezoelectric crystal" class="mw-redirect">piezoelectric crystal</a> directly connected to it, and a built in clock generator generates the internal high amplitude <a href="/wiki/Two-phase_clock" title="Two-phase clock" class="mw-redirect">two-phase clock</a> signals at half the crystal frequency (a 6.14&#160;MHz crystal would yield a 3.07&#160;MHz clock, for instance).</p>
+<p>The 8085 is a <a href="/wiki/Binary_compatible" title="Binary compatible" class="mw-redirect">binary compatible</a> follow up on the 8080, using the same basic <a href="/wiki/Instruction_set" title="Instruction set">instruction set</a> as the 8080. Only a few minor instructions were new to the 8085 above the 8080 set.</p>
+<h3><span class="mw-headline" id="Programming_model">Programming model</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Intel_8085&amp;action=edit&amp;section=2" title="Edit section: Programming model">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<table class="infobox" style="font-size:88%">
+<tr>
+<td style="text-align:center"><i>Intel 8085 registers</i></td>
+</tr>
+<tr>
+<td>
+<table style="font-size:88%;">
+<tr>
+<td style="width:10px; text-align:center;"><sup>1</sup><sub>5</sub></td>
+<td style="width:10px; text-align:center;"><sup>1</sup><sub>4</sub></td>
+<td style="width:10px; text-align:center;"><sup>1</sup><sub>3</sub></td>
+<td style="width:10px; text-align:center;"><sup>1</sup><sub>2</sub></td>
+<td style="width:10px; text-align:center;"><sup>1</sup><sub>1</sub></td>
+<td style="width:10px; text-align:center;"><sup>1</sup><sub>0</sub></td>
+<td style="width:10px; text-align:center;"><sup>0</sup><sub>9</sub></td>
+<td style="width:10px; text-align:center;"><sup>0</sup><sub>8</sub></td>
+<td style="width:10px; text-align:center;"><sup>0</sup><sub>7</sub></td>
+<td style="width:10px; text-align:center;"><sup>0</sup><sub>6</sub></td>
+<td style="width:10px; text-align:center;"><sup>0</sup><sub>5</sub></td>
+<td style="width:10px; text-align:center;"><sup>0</sup><sub>4</sub></td>
+<td style="width:10px; text-align:center;"><sup>0</sup><sub>3</sub></td>
+<td style="width:10px; text-align:center;"><sup>0</sup><sub>2</sub></td>
+<td style="width:10px; text-align:center;"><sup>0</sup><sub>1</sub></td>
+<td style="width:10px; text-align:center;"><sup>0</sup><sub>0</sub></td>
+<td style="width:auto;"><i>(bit position)</i></td>
+</tr>
+<tr>
+<td colspan="17"><b>Main registers</b></td>
+</tr>
+<tr style="background:silver;color:black">
+<td style="text-align:center;" colspan="8">A</td>
+<td style="text-align:center;background:#DDD" colspan="8">Flags</td>
+<td style="width:auto; background:white; color:black;"><b>AF</b> (accumulator and flags)</td>
+</tr>
+<tr style="background:silver;color:black">
+<td style="text-align:center;" colspan="8">B</td>
+<td style="text-align:center;" colspan="8">C</td>
+<td style="background:white; color:black;"><b>BC</b></td>
+</tr>
+<tr style="background:silver;color:black">
+<td style="text-align:center;" colspan="8">D</td>
+<td style="text-align:center;" colspan="8">E</td>
+<td style="background:white; color:black;"><b>DE</b></td>
+</tr>
+<tr style="background:silver;color:black">
+<td style="text-align:center;" colspan="8">H</td>
+<td style="text-align:center;" colspan="8">L</td>
+<td style="background:white; color:black;"><b>HL</b> (indirect address)</td>
+</tr>
+<tr>
+<td colspan="17"><b>Index registers</b></td>
+</tr>
+<tr style="background:silver;color:black">
+<td style="text-align:center;" colspan="16">SP</td>
+<td style="background:white; color:black;"><b>S</b>tack <b>P</b>ointer</td>
+</tr>
+<tr>
+<td colspan="17"><b>Program counter</b></td>
+</tr>
+<tr style="background:silver;color:black">
+<td style="text-align:center;" colspan="16">PC</td>
+<td style="background:white; color:black;"><b>P</b>rogram <b>C</b>ounter</td>
+</tr>
+<tr>
+<td colspan="17"><b>Status register</b></td>
+</tr>
+<tr style="background:silver;color:black">
+<td style="text-align:center; background:white" colspan="8">&#160;</td>
+<td style="text-align:center;"><a href="/wiki/Sign_flag" title="Sign flag" class="mw-redirect">S</a></td>
+<td style="text-align:center;"><a href="/wiki/Zero_flag" title="Zero flag">Z</a></td>
+<td style="text-align:center;"><a href="/wiki/Interrupt_flag" title="Interrupt flag">I</a></td>
+<td style="text-align:center;"><a href="/wiki/Half-carry_flag" title="Half-carry flag">H</a></td>
+<td style="text-align:center;">-</td>
+<td style="text-align:center;"><a href="/wiki/Parity_flag" title="Parity flag">P</a></td>
+<td style="text-align:center;">-</td>
+<td style="text-align:center;"><a href="/wiki/Carry_flag" title="Carry flag">C</a></td>
+<td style="background:white; color:black"><b>F</b>lags</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+<p>The processor has seven 8-bit <a href="/wiki/Processor_register" title="Processor register">registers</a> accessible to the programmer, named A, B, C, D, E, H, and L, where A is the 8-bit accumulator and the other six can be used as independent byte-registers or as three 16-bit register pairs, BC, DE, and HL, depending on the particular instruction. Some instructions use HL as a (limited) 16-bit accumulator. As in the 8080, the contents of the memory address pointed to by HL could be accessed as pseudo register M. It also has a 16-bit <a href="/wiki/Program_counter" title="Program counter">program counter</a> and a 16-bit <a href="/wiki/Stack-based_memory_allocation" title="Stack-based memory allocation">stack pointer</a> to memory (replacing the 8008's internal <a href="/wiki/Stack_(data_structure)" title="Stack (data structure)" class="mw-redirect">stack</a>). Instructions such as PUSH PSW, POP PSW affected the Program Status Word (accumulator and flags). The accumulator stores the results of arithmetic and logical operations, and the flags register bits (sign, zero, auxiliary carry, parity, and carry flags) are set or cleared according to the results of these operations.</p>
+<h3><span class="mw-headline" id="Commands.2Finstructions">Commands/instructions</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Intel_8085&amp;action=edit&amp;section=3" title="Edit section: Commands/instructions">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>As in many other 8-bit processors, all instructions are encoded in a single byte (including register-numbers, but excluding immediate data), for simplicity. Some of them are followed by one or two bytes of data, which could be an immediate operand, a memory address, or a port number. A NOP "no operation" instruction exists, but does not modify any of the registers or flags. Like larger processors, it has CALL and RET instructions for multi-level procedure calls and returns (which can be conditionally executed, like jumps) and instructions to save and restore any 16-bit register-pair on the machine stack. There are also eight one-byte call instructions (RST) for subroutines located at the fixed addresses 00h, 08h, 10h,...,38h. These were intended to be supplied by external hardware in order to invoke a corresponding interrupt-service routine, but are also often employed as fast system calls. The most sophisticated command was XTHL, which is used for exchanging the register pair HL with the value stored at the address indicated by the stack pointer.</p>
+<h4><span class="mw-headline" id="8-bit_instructions">8-bit instructions</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Intel_8085&amp;action=edit&amp;section=4" title="Edit section: 8-bit instructions">edit</a><span class="mw-editsection-bracket">]</span></span></h4>
+<p>Most 8-bit operations work on the 8-bit <a href="/wiki/Accumulator_(computing)" title="Accumulator (computing)">accumulator</a> (the A register). For two operand 8-bit operations, the other operand can be either an immediate value, another 8-bit register, or a memory cell addressed by the 16-bit register pair HL. Direct copying is supported between any two 8-bit registers and between any 8-bit register and a HL-addressed memory cell. Due to the regular encoding of the MOV-instruction (using a quarter of available opcode space) there are redundant codes to copy a register into itself (MOV B,B, for instance), which are of little use, except for delays. However, what would have been a copy from the HL-addressed cell into itself (i.e., MOV M,M) instead encodes the <a href="/wiki/HLT" title="HLT">HLT</a> instruction, halting execution until an external reset or interrupt occurred (providing interrupts were enabled).</p>
+<h4><span class="mw-headline" id="16-bit_operations">16-bit operations</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Intel_8085&amp;action=edit&amp;section=5" title="Edit section: 16-bit operations">edit</a><span class="mw-editsection-bracket">]</span></span></h4>
+<p>Although the 8085 is an 8-bit processor, it has some 16-bit operations. Any of the three 16-bit register pairs (BC, DE, HL or SP) could be loaded with an immediate 16-bit value (using LXI), incremented or decremented (using INX and DCX), or added to HL (using DAD). LHLD loaded HL from directly-addressed memory and SHLD stored HL likewise. The XCHG operation exchanges the values of HL and DE. Adding HL to itself performs a 16-bit arithmetical left shift with one instruction. The only 16 bit instruction that affects any flag was DAD (adding HL to BC, DE, HL or SP), which updates the carry flag to facilitate 24-bit or larger additions and left shifts (for a <a href="/wiki/Floating_point" title="Floating point">floating point</a> <a href="/wiki/Mantissa_of_a_floating_point_number" title="Mantissa of a floating point number" class="mw-redirect">mantissa</a> for instance). Adding the stack pointer to HL is useful for indexing variables in (recursive) stack frames. A stack frame can be allocated using DAD SP and SPHL, and a branch to a computed pointer can be done with PCHL. These abilities make it feasible to compile languages such as <a href="/wiki/PL/M" title="PL/M">PL/M</a>, <a href="/wiki/Pascal_(programming_language)" title="Pascal (programming language)">Pascal</a>, or <a href="/wiki/C_(programming_language)" title="C (programming language)">C</a> with 16-bit variables and produce 8085 machine code.</p>
+<p>Subtraction and bitwise logical operations on 16 bits is done in 8-bit steps. Operations that have to be implemented by program code (subroutine libraries) included comparisons of signed integers as well as multiply and divide.</p>
+<h3><span class="mw-headline" id="Input.2Foutput_scheme">Input/output scheme</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Intel_8085&amp;action=edit&amp;section=6" title="Edit section: Input/output scheme">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>The 8085 supported up to 256 <a href="/wiki/Input/output" title="Input/output">input/output</a> (I/O) ports, accessed via dedicated Input/Output instructions—taking port addresses as operands. This I/O mapping scheme was regarded as an advantage, as it freed up the processor's limited address space. The IN and OUT instructions are used to read and write I/O port data.</p>
+<h3><span class="mw-headline" id="Development_system">Development system</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Intel_8085&amp;action=edit&amp;section=7" title="Edit section: Development system">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>Intel produced a series of development systems for the 8080 and 8085, known as the MDS-80 Microprocessor System. The original development system had an 8080 processor. Later 8085 and 8086 support was added including ICE (<a href="/wiki/In-circuit_emulator" title="In-circuit emulator">in-circuit emulators</a>). It was a large and heavy desktop box, about a 20" cube (in the Intel corporate blue color) which included a CPU, monitor, and a single 8 inch floppy disk drive. Later an external box was available with two more floppy drives. It ran the <a href="/wiki/ISIS_(operating_system)" title="ISIS (operating system)">ISIS</a> operating system and could also operate an <a href="/wiki/Emulator" title="Emulator">emulator</a> pod and an external <a href="/wiki/EPROM" title="EPROM">EPROM</a> programmer. This unit used the Multibus card cage which was intended just for the development system. A surprising number of spare card cages and processors were being sold, leading to the development of the Multibus as a separate product.</p>
+<p>The later iPDS was a portable unit, about 8" x 16" x 20", with a handle. It had a small green screen, a keyboard built into the top, a 5¼ inch floppy disk drive, and ran the ISIS-II operating system. It could also accept a second 8085 processor, allowing a limited form of multi-processor operation where both processors ran simultaneously and independently. The screen and keyboard could be switched between them, allowing programs to be assembled on one processor (large programs took awhile) while files were edited in the other. It had a bubble memory option and various programming modules, including EPROM and Intel 8048 and 8051 programming modules which were plugged into the side, replacing stand-alone device programmers. In addition to an 8080/8085 assembler, Intel produced a number of compilers including <a href="/wiki/PL/M" title="PL/M">PL/M-80</a> and <a href="/wiki/Pascal_programming_language" title="Pascal programming language" class="mw-redirect">Pascal</a> languages, and a set of tools for linking and statically locating programs to enable them to be burnt into <a href="/wiki/EPROM" title="EPROM">EPROMs</a> and used in <a href="/wiki/Embedded_system" title="Embedded system">embedded systems</a>.</p>
+<p>A lower cost SDK-85 System Design Kit board was provided with an 8085 CPU, 8355 ROM containing a debugging monitor program, 8155 RAM and 22 I/O, 8279 hex keypad and 8-digit 7-segment LED, TTY (Teletype) 20&#160;mA current loop serial interface. Pads were available for one more 2Kx8 8755 EPROM and another 256&#160;byte RAM 8155 I/O Timer/Counter could be optionally added. All data, control and address signals were available on dual pin headers and a large prototype area was provided.</p>
+<h2><span class="mw-headline" id="Applications">Applications</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Intel_8085&amp;action=edit&amp;section=8" title="Edit section: Applications">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>For the extensive use of 8085 in various applications, the microprocessor is provided with an instruction set which consists of various instructions such as MOV, ADD, SUB, JMP, etc. These instructions are written in the form of a program which is used to perform various operations such as branching, addition, subtraction, <a href="/wiki/Bitwise_operation" title="Bitwise operation">bitwise logical</a> and <a href="/wiki/Bit_shifting" title="Bit shifting" class="mw-redirect">bit shift</a> operations. More complex operations and other arithmetic operations must be implemented in software. For example, multiplication is implemented using a <a href="/wiki/Multiplication_algorithm" title="Multiplication algorithm">multiplication algorithm</a>.</p>
+<p>The 8085 processor was used in a few early personal computers, for example, the <a href="/wiki/TRS-80_Model_100_line" title="TRS-80 Model 100 line" class="mw-redirect">TRS-80 Model 100 line</a> used an OKI manufactured 80C85 (MSM80C85ARS). The <a href="/wiki/CMOS" title="CMOS">CMOS</a> version 80C85 of the NMOS/HMOS 8085 processor has several manufacturers. Some manufacturers provide variants with additional functions such as additional instructions.<sup class="noprint Inline-Template Template-Fact" style="white-space:nowrap;">[<i><a href="/wiki/Wikipedia:Citation_needed" title="Wikipedia:Citation needed"><span title="This claim needs references to reliable sources. (February 2011)">citation needed</span></a></i>]</sup> The <a href="/wiki/Rad-hard" title="Rad-hard" class="mw-redirect">rad-hard</a> version of the 8085 has been in on-board instrument data processors for several <a href="/wiki/NASA" title="NASA">NASA</a> and <a href="/wiki/ESA" title="ESA" class="mw-redirect">ESA</a> space physics missions in the 1990s and early 2000s, including <a href="/wiki/CRRES" title="CRRES">CRRES</a>, <a href="/wiki/Polar_(satellite)" title="Polar (satellite)">Polar</a>, <a href="/w/index.php?title=FAST_(satellite)&amp;action=edit&amp;redlink=1" class="new" title="FAST (satellite) (page does not exist)">FAST</a>, <a href="/w/index.php?title=Cluster_(satellite)&amp;action=edit&amp;redlink=1" class="new" title="Cluster (satellite) (page does not exist)">Cluster</a>, <a href="/wiki/HESSI" title="HESSI" class="mw-redirect">HESSI</a>, the <a href="/wiki/Mars_Pathfinder" title="Mars Pathfinder">Sojourner</a> Mars Rover,<sup id="cite_ref-2" class="reference"><a href="#cite_note-2"><span>[</span>2<span>]</span></a></sup> and <a href="/wiki/THEMIS_(satellite)" title="THEMIS (satellite)" class="mw-redirect">THEMIS</a>. The Swiss company SAIA used the 8085 and the 8085-2 as the CPUs of their PCA1 line of <a href="/wiki/Programmable_logic_controller" title="Programmable logic controller">programmable logic controllers</a> during the 1980s.</p>
+<p>Pro-Log Corp. put the 8085 and supporting hardware on an STD Bus format card containing CPU, RAM, sockets for ROM/EPROM, I/O and external bus interfaces. The included Instruction Set Reference Card used entirely different mnemonics for the Intel 8085 CPU, as the product was a direct competitor to Intel's <a href="/wiki/Multibus" title="Multibus">Multibus</a> card offerings.</p>
+<h2><span class="mw-headline" id="MCS-85_family">MCS-85 family</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Intel_8085&amp;action=edit&amp;section=9" title="Edit section: MCS-85 family">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>The 8085 CPU was one part of a family of chips developed by Intel, for building a complete system. Many of these support chips were also used with other processors. The original IBM PC based on the <a href="/wiki/Intel_8088" title="Intel 8088">Intel 8088</a> processor used several of these chips; the equivalent functions today are provided by <a href="/wiki/Very-large-scale_integration" title="Very-large-scale integration">VLSI</a> chips, namely the "<a href="/wiki/Southbridge_(computing)" title="Southbridge (computing)">Southbridge</a>" chips.</p>
+<div class="div-col columns column-width" style="-moz-column-width: 35em; -webkit-column-width: 35em; column-width: 35em;">
+<ul>
+<li>8085-CPU</li>
+<li>8155-RAM+ 3 I/O Ports+Timer</li>
+<li>8156-RAM+ 3 I/O Ports+Timer</li>
+<li>8185-SRAM</li>
+<li>8355-16,384-bit (2048 ×8) ROM with I/O</li>
+<li>8604-4096-bit (512 ×8) PROM</li>
+<li>8755-EPROM+2 I/O Ports</li>
+<li>8202-Dynamic RAM Controller</li>
+<li>8203-Dynamic RAM Controller</li>
+<li>8205-1 Of 8 Binary Decoder</li>
+<li>8206-Error Detection &amp; Correction Unit</li>
+<li>8207-DRAM Controller</li>
+<li>8210-TTL To MOS Shifter &amp; High Voltage Clock Driver</li>
+<li>8212-8-bit I/O Port</li>
+<li>8216-4-bit Parallel Bidirectional Bus Driver</li>
+<li>8218/8219-Bus Controller</li>
+<li>8226-4-bit Parallel Bidirectional Bus Driver</li>
+<li>8231-Arithmetic Processing Unit</li>
+<li>8232-Floating Point Processor</li>
+<li><a href="/wiki/Intel_8237" title="Intel 8237">8237</a>-DMA Controller</li>
+<li><a href="/wiki/Intel_8251" title="Intel 8251">8251</a>-Communication Controller</li>
+<li><a href="/wiki/Intel_8253" title="Intel 8253">8253</a>-<a href="/wiki/Programmable_Interval_Timer" title="Programmable Interval Timer" class="mw-redirect">Programmable Interval Timer</a></li>
+<li>8254-Programmable Interval Timer</li>
+<li><a href="/wiki/Intel_8255" title="Intel 8255">8255</a>-Programmable Peripheral Interface</li>
+<li>8256-Multifunction Support Controller</li>
+<li><a href="/w/index.php?title=Intel_8257&amp;action=edit&amp;redlink=1" class="new" title="Intel 8257 (page does not exist)">8257</a>-DMA Controller</li>
+<li><a href="/wiki/Intel_8259" title="Intel 8259">8259</a>-<a href="/wiki/Programmable_Interrupt_Controller" title="Programmable Interrupt Controller">Programmable Interrupt Controller</a></li>
+<li>8271-Programmable Floppy Disk Controller</li>
+<li><a href="/wiki/NEC_%C2%B5PD765" title="NEC µPD765" class="mw-redirect">8272</a>-Single/Double Density Floppy Disk Controller</li>
+<li>8273-Programmable HDLC/SDLC Protocol Controller</li>
+<li>8274-Multi-Protocol Serial Controller</li>
+<li>8275-CRT Controller</li>
+<li>8276-Small System CRT Controller</li>
+<li>8275-Programmable Key Board Interface</li>
+<li><a href="/wiki/Intel_8279" title="Intel 8279">8279</a>-Key Board/Display Controller</li>
+<li><a href="/wiki/Intel_8282" title="Intel 8282">8282</a>-8-bit Non-Inverting Latch with Output Buffer</li>
+<li><a href="/wiki/Intel_8283" title="Intel 8283">8283</a>-8-bit Inverting Latch with Output Buffer</li>
+<li>8291-GPIB Talker/Listener</li>
+<li>8293-GPIB Transceiver</li>
+<li>8294-Data Encryption/Decryption Unit+1 O/P Port</li>
+<li>8295-Dot Matrix Printer Controller</li>
+</ul>
+</div>
+<h2><span class="mw-headline" id="Educational_use">Educational use</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Intel_8085&amp;action=edit&amp;section=10" title="Edit section: Educational use">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>In many engineering schools<sup id="cite_ref-3" class="reference"><a href="#cite_note-3"><span>[</span>3<span>]</span></a></sup><sup id="cite_ref-4" class="reference"><a href="#cite_note-4"><span>[</span>4<span>]</span></a></sup> the 8085 processor is used in introductory microprocessor courses. Trainer kits composed of a printed circuit board, 8085, and supporting hardware are offered by various companies. These kits usually include complete documentation allowing a student to go from solder to assembly language programming in a single course. Also the architecture of this and the associated instruction set is easy for a student to understand.</p>
+<h2><span class="mw-headline" id="Simulators">Simulators</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Intel_8085&amp;action=edit&amp;section=11" title="Edit section: Simulators">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>Some of the simulators available for the 8085 microprocessor are listed below:</p>
+<ul>
+<li><a href="/wiki/GNUSim8085" title="GNUSim8085">GNUSim8085</a> - It consists of a simulator, assembler and a debugger. It is available for both Windows and Linux operating systems.</li>
+<li><a href="/w/index.php?title=Win85&amp;action=edit&amp;redlink=1" class="new" title="Win85 (page does not exist)">Win85</a> - Open source (under the MIT license) simulator/debugger for Windows<sup id="cite_ref-5" class="reference"><a href="#cite_note-5"><span>[</span>5<span>]</span></a></sup></li>
+<li>8085 simulator - It includes a simulated keypad, an assembler and a simulator.</li>
+<li><a rel="nofollow" class="external text" href="https://play.google.com/store/apps/details?id=mp.project.intel8085simulator">Intel 8085 Simulator for Android.</a><sup id="cite_ref-6" class="reference"><a href="#cite_note-6"><span>[</span>6<span>]</span></a></sup></li>
+<li>ENVI85 - It was written by professors Stefan Fedyschyn and Edwin Kay. This and the above simulator are provided on the CD that accompanies the book, <i>Microprocessor Architecture, Programming and Applications with the 8085</i> by Ramesh Gaonkar.</li>
+</ul>
+<h2><span class="mw-headline" id="See_also">See also</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Intel_8085&amp;action=edit&amp;section=12" title="Edit section: See also">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<ul>
+<li><a href="/wiki/GNUSim8085" title="GNUSim8085">GNUSim8085</a> – An open source multi-platform simulator software for the 8085 processor.</li>
+<li><a href="/wiki/IBM_System/23" title="IBM System/23">IBM System/23</a> Datamaster gave IBM designers familiarity with the 8085 support chips used in the <a href="/wiki/IBM_PC" title="IBM PC" class="mw-redirect">IBM PC</a>≈</li>
+</ul>
+<h2><span class="mw-headline" id="References">References</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Intel_8085&amp;action=edit&amp;section=13" title="Edit section: References">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<div class="reflist" style="list-style-type: decimal;">
+<ol class="references">
+<li id="cite_note-1"><span class="mw-cite-backlink"><b><a href="#cite_ref-1">^</a></b></span> <span class="reference-text">The history of the microcomputer-invention and evolution, S Mazor - Proceedings of the IEEE, 1995</span></li>
+<li id="cite_note-2"><span class="mw-cite-backlink"><b><a href="#cite_ref-2">^</a></b></span> <span class="reference-text"><a rel="nofollow" class="external text" href="http://mars.jpl.nasa.gov/MPF/rover/descrip.html">A Description of the Rover Sojourner</a></span></li>
+<li id="cite_note-3"><span class="mw-cite-backlink"><b><a href="#cite_ref-3">^</a></b></span> <span class="reference-text"><a rel="nofollow" class="external autonumber" href="http://www.etfbl.net/?c=prikazi&amp;objekat=sadrzaj&amp;f_id=4484&amp;ss_jezik=1">[1]</a></span></li>
+<li id="cite_note-4"><span class="mw-cite-backlink"><b><a href="#cite_ref-4">^</a></b></span> <span class="reference-text"><a rel="nofollow" class="external text" href="http://feit.ukim.edu.mk/fakultet/fajlovi_pocetna/ksia_6_2_mikroprocsorski_sistemi.pdf">Микропроцесорски системи</a></span></li>
+<li id="cite_note-5"><span class="mw-cite-backlink"><b><a href="#cite_ref-5">^</a></b></span> <span class="reference-text"><a rel="nofollow" class="external text" href="http://pythagoras.physics.upatras.gr/~gmanol">Win85 project homepage</a></span></li>
+<li id="cite_note-6"><span class="mw-cite-backlink"><b><a href="#cite_ref-6">^</a></b></span> <span class="reference-text"><a rel="nofollow" class="external autonumber" href="https://play.google.com/store/apps/details?id=mp.project.intel8085simulator">[2]</a></span></li>
+</ol>
+</div>
+<ul>
+<li>William Stallings <i>Computer Organization and Architecture: Designing for Performance 8th Ed.</i> Prentice Hall, 2009 <a href="/wiki/Special:BookSources/0136073735" class="internal mw-magiclink-isbn">ISBN 0-13-607373-5</a></li>
+<li>Abhishek Yadav <i>Microprocessor 8085, 8086</i> Firewall Media, 2008 <a href="/wiki/Special:BookSources/8131803562" class="internal mw-magiclink-isbn">ISBN 81-318-0356-2</a></li>
+<li>Ramesh Gaonkar <i>Microprocessor Architecture, Programming and Applications with the 8085</i> Penram International Publishing <a href="/wiki/Special:BookSources/8187972092" class="internal mw-magiclink-isbn">ISBN 81-87972-09-2</a></li>
+<li>Bill Detwiler <i>Tandy TRS-80 Model 100 Teardown</i> Tech Republic, 2011 Web</li>
+</ul>
+<h2><span class="mw-headline" id="External_links">External links</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Intel_8085&amp;action=edit&amp;section=14" title="Edit section: External links">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<ul>
+<li><a rel="nofollow" class="external text" href="http://scanftree.com/microprocessor/Pin-Diagram-of-8085-and-Pin-description-of-8085">Pin diagram and pin description of 8085</a></li>
+<li><a rel="nofollow" class="external text" href="http://studentstudyhub.com/functions-ics-used-8085-microprocessor">Function of IC's Used in 8085 Microprocessor</a></li>
+</ul>
+<table class="navbox" style="border-spacing:0">
+<tr>
+<td style="padding:2px">
+<table class="nowraplinks collapsible autocollapse navbox-inner" style="border-spacing:0;background:transparent;color:inherit">
+<tr>
+<th scope="col" class="navbox-title" colspan="2">
+<div class="plainlinks hlist navbar mini">
+<ul>
+<li class="nv-view"><a href="/wiki/Template:Intel_processors" title="Template:Intel processors"><span title="View this template" style=";;background:none transparent;border:none;">v</span></a></li>
+<li class="nv-talk"><a href="/wiki/Template_talk:Intel_processors" title="Template talk:Intel processors"><span title="Discuss this template" style=";;background:none transparent;border:none;">t</span></a></li>
+<li class="nv-edit"><a class="external text" href="//en.wikipedia.org/w/index.php?title=Template:Intel_processors&amp;action=edit"><span title="Edit this template" style=";;background:none transparent;border:none;">e</span></a></li>
+</ul>
+</div>
+<div style="font-size:110%"><a href="/wiki/List_of_Intel_microprocessors" title="List of Intel microprocessors">Intel processors</a></div>
+</th>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<td colspan="2" class="navbox-list navbox-odd hlist" style="width:100%;padding:0px">
+<div style="padding:0em 0.25em"></div>
+<table class="nowraplinks collapsible uncollapse navbox-subgroup" style="border-spacing:0">
+<tr>
+<th scope="col" class="navbox-title" colspan="2"><span style="float:left;width:6em">&#160;</span>
+<div style="font-size:110%">Discontinued</div>
+</th>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style="width:12em; background-color: #E6E6E6"><a href="/wiki/Binary-coded_decimal" title="Binary-coded decimal">BCD</a> oriented (<a href="/wiki/4-bit" title="4-bit">4-bit</a>)</th>
+<td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;width:auto">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Intel_4004" title="Intel 4004">4004</a> (1971)</li>
+<li><a href="/wiki/Intel_4040" title="Intel 4040">4040</a> (1974)</li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style="width:12em; background-color: #E6E6E6">pre-x86 (<a href="/wiki/8-bit" title="8-bit">8-bit</a>)</th>
+<td class="navbox-list navbox-even" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;width:auto">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Intel_8008" title="Intel 8008">8008</a> (1972)</li>
+<li><a href="/wiki/Intel_8080" title="Intel 8080">8080</a> (1974)</li>
+<li><strong class="selflink">8085</strong> (1977)</li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style="width:12em; background-color: #E6E6E6">Early <a href="/wiki/X86" title="X86">x86</a> (<a href="/wiki/16-bit" title="16-bit">16-bit</a>)</th>
+<td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;width:auto">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Intel_8086" title="Intel 8086">8086</a> (1978)</li>
+<li><a href="/wiki/Intel_8088" title="Intel 8088">8088</a> (1979)</li>
+<li><a href="/wiki/Intel_80186" title="Intel 80186">80186</a> (1982)</li>
+<li><a href="/wiki/Intel_80188" title="Intel 80188">80188</a> (1982)</li>
+<li><a href="/wiki/Intel_80286" title="Intel 80286">80286</a> (1982)</li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style="width:12em; background-color: #E6E6E6"><a href="/wiki/X87" title="X87">x87</a> (external <a href="/wiki/Floating-point_unit" title="Floating-point unit">FPUs</a>)</th>
+<td class="navbox-list navbox-even" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;width:auto">
+<div style="padding:0em 0.25em">
+<dl>
+<dt>8/16-bit databus</dt>
+<dd><a href="/wiki/Intel_8087" title="Intel 8087">8087</a> (1980)</dd>
+<dt>16-bit databus</dt>
+<dd><a href="/wiki/80187" title="80187" class="mw-redirect">80187</a></dd>
+<dd><a href="/wiki/Intel_80287" title="Intel 80287" class="mw-redirect">80287</a></dd>
+<dd><a href="/wiki/Intel_80387SX" title="Intel 80387SX">80387SX</a></dd>
+<dt>32-bit databus</dt>
+<dd><a href="/wiki/Intel_80387" title="Intel 80387" class="mw-redirect">80387DX</a></dd>
+<dd><a href="/wiki/Intel_80487" title="Intel 80487" class="mw-redirect">80487</a></dd>
+</dl>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style="width:12em; background-color: #E6E6E6"><a href="/wiki/IA-32" title="IA-32">IA-32</a> (<a href="/wiki/32-bit" title="32-bit">32-bit</a>)</th>
+<td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;width:auto">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Intel_80386" title="Intel 80386">80386</a>
+<ul>
+<li><a href="/wiki/Intel_80386SX" title="Intel 80386SX" class="mw-redirect">SX</a></li>
+<li><a href="/wiki/Intel_80376" title="Intel 80376">376</a></li>
+<li><a href="/wiki/Intel_80386EX" title="Intel 80386EX">EX</a></li>
+</ul>
+</li>
+<li><a href="/wiki/Intel_80486" title="Intel 80486">80486</a>
+<ul>
+<li><a href="/wiki/Intel_80486SX" title="Intel 80486SX">SX</a></li>
+<li><a href="/wiki/Intel_80486DX2" title="Intel 80486DX2">DX2</a></li>
+<li><a href="/wiki/Intel_DX4" title="Intel DX4">DX4</a></li>
+<li><a href="/wiki/Intel_80486SL" title="Intel 80486SL">SL</a></li>
+<li><a href="/wiki/RapidCAD" title="RapidCAD">RapidCAD</a></li>
+<li><a href="/wiki/Intel_80486_OverDrive" title="Intel 80486 OverDrive">OverDrive</a></li>
+</ul>
+</li>
+<li><a href="/wiki/Stealey_(microprocessor)" title="Stealey (microprocessor)">A100/A110</a></li>
+<li><a href="/wiki/Celeron" title="Celeron">Celeron</a> (1998)
+<ul>
+<li><a href="/wiki/Celeron#P6-based_Mobile_Celerons" title="Celeron">M</a></li>
+<li><a href="/wiki/Celeron#Prescott-256" title="Celeron">D</a> (2004)</li>
+</ul>
+</li>
+<li><a href="/wiki/Pentium" title="Pentium">Pentium</a>
+<ul>
+<li><a href="/wiki/P5_(microarchitecture)" title="P5 (microarchitecture)">Original</a></li>
+<li><a href="/wiki/Pentium_OverDrive" title="Pentium OverDrive">OverDrive</a></li>
+<li><a href="/wiki/Pentium_Pro" title="Pentium Pro">Pro</a></li>
+<li><a href="/wiki/Pentium_II" title="Pentium II">II</a></li>
+<li><a href="/wiki/Pentium_OverDrive#Socket_8" title="Pentium OverDrive">II OverDrive</a></li>
+<li><a href="/wiki/Pentium_III" title="Pentium III">III</a></li>
+<li><a href="/wiki/Pentium_4" title="Pentium 4">4</a></li>
+<li><a href="/wiki/Pentium_M" title="Pentium M">M</a></li>
+<li><a href="/wiki/Pentium_Dual-Core" title="Pentium Dual-Core">Dual-Core</a></li>
+</ul>
+</li>
+<li><a href="/wiki/Intel_Core" title="Intel Core">Core</a>
+<ul>
+<li><a href="/wiki/Core_Solo" title="Core Solo" class="mw-redirect">Solo</a></li>
+<li><a href="/wiki/Core_Duo" title="Core Duo" class="mw-redirect">Duo</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style="width:12em; background-color: #E6E6E6"><a href="/wiki/X86-64" title="X86-64">x86-64</a> (<a href="/wiki/64-bit_computing" title="64-bit computing">64-bit</a>)</th>
+<td class="navbox-list navbox-even" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;width:auto">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Celeron" title="Celeron">Celeron</a>
+<ul>
+<li><a href="/wiki/Celeron#Prescott-256" title="Celeron">D</a></li>
+<li><a href="/wiki/Celeron#Celeron_Dual-Core" title="Celeron">Dual-Core</a></li>
+</ul>
+</li>
+<li><a href="/wiki/Pentium" title="Pentium">Pentium</a>
+<ul>
+<li><a href="/wiki/Pentium_4#Prescott_2M_.28Extreme_Edition.29" title="Pentium 4">4</a></li>
+<li><a href="/wiki/Pentium_D" title="Pentium D">D</a></li>
+<li><a href="/wiki/Pentium_D#Smithfield_XE" title="Pentium D">Extreme Edition</a></li>
+<li><a href="/wiki/Pentium_Dual-Core" title="Pentium Dual-Core">Dual-Core</a></li>
+</ul>
+</li>
+<li><a href="/wiki/Intel_Core" title="Intel Core">Core</a>
+<ul>
+<li><a href="/wiki/Intel_Core_2" title="Intel Core 2">2</a></li>
+<li><a href="/wiki/Sandy_Bridge" title="Sandy Bridge">i7 (some)</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style="width:12em; background-color: #E6E6E6">Other</th>
+<td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;width:auto">
+<div style="padding:0em 0.25em">
+<dl>
+<dt><a href="/wiki/Complex_instruction_set_computing" title="Complex instruction set computing">CISC</a></dt>
+<dd><a href="/wiki/Intel_iAPX_432" title="Intel iAPX 432">iAPX 432</a></dd>
+<dt><a href="/wiki/Reduced_instruction_set_computing" title="Reduced instruction set computing">RISC</a></dt>
+<dd><a href="/wiki/Intel_i860" title="Intel i860">i860</a></dd>
+<dd><a href="/wiki/Intel_i960" title="Intel i960">i960</a></dd>
+<dd><a href="/wiki/StrongARM" title="StrongARM">StrongARM</a></dd>
+<dd><a href="/wiki/XScale" title="XScale">XScale</a></dd>
+</dl>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<td colspan="2" class="navbox-list navbox-even hlist" style="width:100%;padding:0px">
+<div style="padding:0em 0.25em"></div>
+<table class="nowraplinks collapsible autocollapse navbox-subgroup" style="border-spacing:0">
+<tr>
+<th scope="col" class="navbox-title" colspan="2"><span style="float:left;width:6em">&#160;</span>
+<div style="font-size:110%">Current</div>
+</th>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style="width:12em"><a href="/wiki/IA-32" title="IA-32">IA-32</a> (<a href="/wiki/32-bit" title="32-bit">32-bit</a>)</th>
+<td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;width:auto">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Tolapai" title="Tolapai">EP80579</a></li>
+<li><a href="/wiki/Intel_Atom_(CPU)" title="Intel Atom (CPU)">Atom</a>
+<ul>
+<li><a href="/wiki/List_of_PowerVR_products#Series5_.28SGX.29" title="List of PowerVR products">CE</a></li>
+<li><a href="/wiki/Atom_(system_on_chip)" title="Atom (system on chip)">SoC</a></li>
+</ul>
+</li>
+<li><a href="/wiki/Intel_Quark" title="Intel Quark">Quark</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style="width:12em"><a href="/wiki/X86-64" title="X86-64">x86-64</a> (<a href="/wiki/64-bit_computing" title="64-bit computing">64-bit</a>)</th>
+<td class="navbox-list navbox-even" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;width:auto">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Intel_Atom_(CPU)" title="Intel Atom (CPU)">Atom</a>
+<ul>
+<li><a href="/wiki/List_of_PowerVR_products#Series5_.28SGX.29" title="List of PowerVR products">CE</a></li>
+<li><a href="/wiki/Atom_(system_on_chip)" title="Atom (system on chip)">SoC</a></li>
+</ul>
+</li>
+<li><a href="/wiki/Celeron" title="Celeron">Celeron</a></li>
+<li><a href="/wiki/Pentium" title="Pentium">Pentium</a></li>
+<li><a href="/wiki/Intel_Core" title="Intel Core">Core</a>
+<ul>
+<li><a href="/wiki/Intel_Core" title="Intel Core">i3</a></li>
+<li><a href="/wiki/Intel_Core" title="Intel Core">i5</a></li>
+<li><a href="/wiki/Intel_Core" title="Intel Core">i7</a></li>
+<li><a href="/wiki/Core_M" title="Core M" class="mw-redirect">M</a></li>
+</ul>
+</li>
+<li><a href="/wiki/Xeon" title="Xeon">Xeon</a>
+<ul>
+<li><a href="/wiki/Xeon" title="Xeon">E7</a></li>
+<li><a href="/wiki/Xeon" title="Xeon">E5</a></li>
+<li><a href="/wiki/Xeon" title="Xeon">E3</a></li>
+<li><a href="/wiki/Intel_MIC" title="Intel MIC" class="mw-redirect">Phi</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style="width:12em"><a href="/wiki/Explicitly_parallel_instruction_computing" title="Explicitly parallel instruction computing">EPIC</a></th>
+<td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;width:auto">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Itanium#Itanium_2:_2002.E2.80.932010" title="Itanium">Itanium</a></li>
+</ul>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<td colspan="2" class="navbox-list navbox-odd hlist" style="width:100%;padding:0px">
+<div style="padding:0em 0.25em"></div>
+<table class="nowraplinks navbox-subgroup" style="border-spacing:0">
+<tr>
+<th scope="col" class="navbox-title" colspan="2">
+<div style="font-size:110%">Lists</div>
+</th>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<td colspan="2" class="navbox-list navbox-odd" style="width:100%;padding:0px;width:auto">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/List_of_Intel_Atom_microprocessors" title="List of Intel Atom microprocessors">Atom</a></li>
+<li><a href="/wiki/List_of_Intel_Celeron_microprocessors" title="List of Intel Celeron microprocessors">Celeron</a></li>
+<li><a href="/wiki/List_of_Intel_Core_microprocessors" title="List of Intel Core microprocessors">Core</a>
+<ul>
+<li><a href="/wiki/List_of_Intel_Core_2_microprocessors" title="List of Intel Core 2 microprocessors">2</a></li>
+<li><a href="/wiki/List_of_Intel_Core_i3_microprocessors" title="List of Intel Core i3 microprocessors">i3</a></li>
+<li><a href="/wiki/List_of_Intel_Core_i5_microprocessors" title="List of Intel Core i5 microprocessors">i5</a></li>
+<li><a href="/wiki/List_of_Intel_Core_i7_microprocessors" title="List of Intel Core i7 microprocessors">i7</a></li>
+<li><a href="/wiki/List_of_Intel_Core_M_microprocessors" title="List of Intel Core M microprocessors">M</a></li>
+</ul>
+</li>
+<li><a href="/wiki/List_of_Intel_Itanium_microprocessors" title="List of Intel Itanium microprocessors">Itanium</a></li>
+<li><a href="/wiki/List_of_Intel_Pentium_microprocessors" title="List of Intel Pentium microprocessors">Pentium</a>
+<ul>
+<li><a href="/wiki/List_of_Intel_Pentium_Pro_microprocessors" title="List of Intel Pentium Pro microprocessors">Pro</a></li>
+<li><a href="/wiki/List_of_Intel_Pentium_II_microprocessors" title="List of Intel Pentium II microprocessors">II</a></li>
+<li><a href="/wiki/List_of_Intel_Pentium_III_microprocessors" title="List of Intel Pentium III microprocessors">III</a></li>
+<li><a href="/wiki/List_of_Intel_Pentium_4_microprocessors" title="List of Intel Pentium 4 microprocessors">4</a></li>
+<li><a href="/wiki/List_of_Intel_Pentium_D_microprocessors" title="List of Intel Pentium D microprocessors">D</a></li>
+<li><a href="/wiki/List_of_Intel_Pentium_M_microprocessors" title="List of Intel Pentium M microprocessors">M</a></li>
+<li><a href="/wiki/List_of_Intel_Pentium_Dual-Core_microprocessors" title="List of Intel Pentium Dual-Core microprocessors" class="mw-redirect">Dual-Core</a></li>
+</ul>
+</li>
+<li><a href="/wiki/List_of_Intel_Xeon_microprocessors" title="List of Intel Xeon microprocessors">Xeon</a></li>
+</ul>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<td colspan="2" class="navbox-list navbox-even hlist" style="width:100%;padding:0px">
+<div style="padding:0em 0.25em"></div>
+<table class="nowraplinks navbox-subgroup" style="border-spacing:0">
+<tr>
+<th scope="col" class="navbox-title" colspan="2">
+<div style="font-size:110%">Related</div>
+</th>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<td colspan="2" class="navbox-list navbox-odd" style="width:100%;padding:0px;width:auto">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/List_of_Intel_chipsets" title="List of Intel chipsets">Chipsets</a></li>
+<li><a href="/wiki/Platform_Controller_Hub" title="Platform Controller Hub">PCHs</a></li>
+<li><a href="/wiki/System_Controller_Hub" title="System Controller Hub">SCHs</a></li>
+<li><a href="/wiki/I/O_Controller_Hub" title="I/O Controller Hub">ICHs</a></li>
+<li><a href="/wiki/PCI_IDE_ISA_Xcelerator" title="PCI IDE ISA Xcelerator">PIIXs</a></li>
+<li><a href="/wiki/List_of_Intel_graphics_processing_units" title="List of Intel graphics processing units">GPUs</a></li>
+<li><a href="/wiki/List_of_Intel_codenames" title="List of Intel codenames">Codenames</a></li>
+<li><a href="/wiki/Intel_GMA" title="Intel GMA">GMA</a></li>
+<li><a href="/wiki/Intel_HD_and_Iris_Graphics" title="Intel HD and Iris Graphics">HD and Iris Graphics</a></li>
+</ul>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<td colspan="2" class="navbox-list navbox-even hlist" style="width:100%;padding:0px">
+<div style="padding:0em 0.25em"></div>
+<table class="nowraplinks collapsible autocollapse navbox-subgroup" style="border-spacing:0">
+<tr>
+<th scope="col" class="navbox-title" colspan="2"><span style="float:left;width:6em">&#160;</span>
+<div style="font-size:110%"><a href="/wiki/List_of_Intel_CPU_microarchitectures" title="List of Intel CPU microarchitectures">Microarchitectures</a></div>
+</th>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style="width:12em"><a href="/wiki/P5_(microarchitecture)" title="P5 (microarchitecture)">P5</a></th>
+<td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;width:auto">
+<div style="padding:0em 0.25em">
+<dl>
+<dt><a href="/wiki/800_nanometer" title="800 nanometer">800&#160;nm</a></dt>
+<dd><a href="/wiki/P5_(microprocessor)" title="P5 (microprocessor)" class="mw-redirect">P5</a></dd>
+<dt><a href="/wiki/600_nanometer" title="600 nanometer">600&#160;nm</a></dt>
+<dd><a href="/wiki/P54C_(microprocessor)" title="P54C (microprocessor)" class="mw-redirect">P54C</a></dd>
+<dt><a href="/wiki/350_nanometer" title="350 nanometer">350&#160;nm</a></dt>
+<dd><a href="/wiki/P54CS_(microprocessor)" title="P54CS (microprocessor)" class="mw-redirect">P54CS</a></dd>
+<dd><a href="/wiki/P55C_(microprocessor)" title="P55C (microprocessor)" class="mw-redirect">P55C</a></dd>
+<dt><a href="/wiki/250_nanometer" title="250 nanometer">250&#160;nm</a></dt>
+<dd><a href="/wiki/Tillamook_(microprocessor)" title="Tillamook (microprocessor)" class="mw-redirect">Tillamook</a></dd>
+</dl>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style="width:12em"><a href="/wiki/P6_(microarchitecture)" title="P6 (microarchitecture)">P6</a> / <a href="/wiki/P6_(microarchitecture)#P6_Variant_Pentium_M" title="P6 (microarchitecture)">Pentium M</a> /<br />
+<a href="/wiki/P6_(microarchitecture)#P6_Variant_Enhanced_Pentium_M" title="P6 (microarchitecture)">Enhanced Pentium M</a></th>
+<td class="navbox-list navbox-even" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;width:auto">
+<div style="padding:0em 0.25em">
+<dl>
+<dt>500&#160;<a href="/wiki/Nanometre" title="Nanometre">nm</a></dt>
+<dd><a href="/wiki/Pentium_Pro" title="Pentium Pro">P6</a></dd>
+<dt>350&#160;nm</dt>
+<dd><a href="/wiki/Pentium_Pro" title="Pentium Pro">P6</a></dd>
+<dd><a href="/wiki/Klamath_(microprocessor)" title="Klamath (microprocessor)" class="mw-redirect">Klamath</a></dd>
+<dt>250&#160;nm</dt>
+<dd><a href="/wiki/Mendocino_(microprocessor)" title="Mendocino (microprocessor)" class="mw-redirect">Mendocino</a></dd>
+<dd><a href="/wiki/Dixon_(microprocessor)" title="Dixon (microprocessor)" class="mw-redirect">Dixon</a></dd>
+<dd><a href="/wiki/Tonga_(microprocessor)" title="Tonga (microprocessor)" class="mw-redirect">Tonga</a></dd>
+<dd><a href="/wiki/Covington_(microprocessor)" title="Covington (microprocessor)" class="mw-redirect">Covington</a></dd>
+<dd><a href="/wiki/Deschutes_(microprocessor)" title="Deschutes (microprocessor)" class="mw-redirect">Deschutes</a></dd>
+<dd><a href="/wiki/Katmai_(microprocessor)" title="Katmai (microprocessor)" class="mw-redirect">Katmai</a></dd>
+<dd><a href="/wiki/Drake_(microprocessor)" title="Drake (microprocessor)" class="mw-redirect">Drake</a></dd>
+<dd><a href="/wiki/Tanner_(microprocessor)" title="Tanner (microprocessor)" class="mw-redirect">Tanner</a></dd>
+<dt><a href="/wiki/180_nanometer" title="180 nanometer">180&#160;nm</a></dt>
+<dd><a href="/wiki/Coppermine_(microprocessor)" title="Coppermine (microprocessor)" class="mw-redirect">Coppermine</a></dd>
+<dd><a href="/wiki/Coppermine_T_(microprocessor)" title="Coppermine T (microprocessor)" class="mw-redirect">Coppermine T</a></dd>
+<dd><a href="/wiki/Intel_Timna" title="Intel Timna">Timna</a></dd>
+<dd><a href="/wiki/Cascades_(microprocessor)" title="Cascades (microprocessor)" class="mw-redirect">Cascades</a></dd>
+<dt><a href="/wiki/130_nanometer" title="130 nanometer">130&#160;nm</a></dt>
+<dd><a href="/wiki/Tualatin_(microprocessor)" title="Tualatin (microprocessor)" class="mw-redirect">Tualatin</a></dd>
+<dd><a href="/wiki/Banias_(microprocessor)" title="Banias (microprocessor)" class="mw-redirect">Banias</a></dd>
+<dt><a href="/wiki/90_nanometer" title="90 nanometer">90&#160;nm</a></dt>
+<dd><a href="/wiki/Dothan_(microprocessor)" title="Dothan (microprocessor)" class="mw-redirect">Dothan</a></dd>
+<dd><a href="/wiki/Stealey_(microprocessor)" title="Stealey (microprocessor)">Stealey</a></dd>
+<dd><a href="/wiki/Tolapai" title="Tolapai">Tolapai</a></dd>
+<dd><a href="/wiki/Canmore_(SoC)" title="Canmore (SoC)" class="mw-redirect">Canmore</a></dd>
+<dt><a href="/wiki/65_nanometer" title="65 nanometer">65&#160;nm</a></dt>
+<dd><a href="/wiki/Yonah_(microprocessor)" title="Yonah (microprocessor)">Yonah</a></dd>
+<dd><a href="/wiki/Sossaman_(microprocessor)" title="Sossaman (microprocessor)" class="mw-redirect">Sossaman</a></dd>
+</dl>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style="width:12em"><a href="/wiki/NetBurst_(microarchitecture)" title="NetBurst (microarchitecture)">NetBurst</a></th>
+<td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;width:auto">
+<div style="padding:0em 0.25em">
+<dl>
+<dt>180&#160;nm</dt>
+<dd><a href="/wiki/Pentium_4#Willamette" title="Pentium 4">Willamette</a></dd>
+<dd><a href="/wiki/Xeon#Foster" title="Xeon">Foster</a></dd>
+<dt>130&#160;nm</dt>
+<dd><a href="/wiki/Pentium_4#Northwood" title="Pentium 4">Northwood</a></dd>
+<dd><a href="/wiki/Pentium_4#Gallatin_.28Extreme_Edition.29" title="Pentium 4">Gallatin</a></dd>
+<dd><a href="/wiki/Xeon#Prestonia" title="Xeon">Prestonia</a></dd>
+<dt>90&#160;nm</dt>
+<dd><a href="/wiki/Tejas_and_Jayhawk" title="Tejas and Jayhawk">Tejas and Jayhawk</a></dd>
+<dd><a href="/wiki/Pentium_4#Prescott" title="Pentium 4">Prescott</a></dd>
+<dd><a href="/wiki/Pentium_D#Smithfield" title="Pentium D">Smithfield</a></dd>
+<dd><a href="/wiki/Xeon#Xeon_.28DP.29_.26_Xeon_MP_.2864-bit.29" title="Xeon">Nocona</a></dd>
+<dd><a href="/wiki/Xeon#Xeon_.28DP.29_.26_Xeon_MP_.2864-bit.29" title="Xeon">Irwindale</a></dd>
+<dd><a href="/wiki/Xeon#Xeon_.28DP.29_.26_Xeon_MP_.2864-bit.29" title="Xeon">Cranford</a></dd>
+<dd><a href="/wiki/Xeon#Xeon_.28DP.29_.26_Xeon_MP_.2864-bit.29" title="Xeon">Potomac</a></dd>
+<dd><a href="/wiki/Xeon#.22Paxville_DP.22" title="Xeon">Paxville</a></dd>
+<dt>65&#160;nm</dt>
+<dd><a href="/wiki/Pentium_4#Cedar_Mill" title="Pentium 4">Cedar Mill</a></dd>
+<dd><a href="/wiki/Pentium_D#Presler" title="Pentium D">Presler</a></dd>
+<dd><a href="/wiki/Xeon#5000-series_.22Dempsey.22" title="Xeon">Dempsey</a></dd>
+<dd><a href="/wiki/Xeon#7100-series_.22Tulsa.22" title="Xeon">Tulsa</a></dd>
+</dl>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style="width:12em"><a href="/wiki/Intel_Core_(microarchitecture)" title="Intel Core (microarchitecture)">Core</a> / <a href="/wiki/Penryn_(microarchitecture)" title="Penryn (microarchitecture)">Penryn</a></th>
+<td class="navbox-list navbox-even" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;width:auto">
+<div style="padding:0em 0.25em">
+<dl>
+<dt>65&#160;nm</dt>
+<dd><a href="/wiki/Merom_(microprocessor)#Merom-L" title="Merom (microprocessor)">Merom-L</a></dd>
+<dd><a href="/wiki/Merom_(microprocessor)" title="Merom (microprocessor)">Merom</a></dd>
+<dd><a href="/wiki/Conroe_(microprocessor)#Conroe-L" title="Conroe (microprocessor)">Conroe-L</a></dd>
+<dd><a href="/wiki/Conroe_(microprocessor)#Allendale" title="Conroe (microprocessor)">Allendale</a></dd>
+<dd><a href="/wiki/Conroe_(microprocessor)" title="Conroe (microprocessor)">Conroe</a></dd>
+<dd><a href="/wiki/Kentsfield_(microprocessor)" title="Kentsfield (microprocessor)">Kentsfield</a></dd>
+<dd><a href="/wiki/Woodcrest_(microprocessor)" title="Woodcrest (microprocessor)" class="mw-redirect">Woodcrest</a></dd>
+<dd><a href="/wiki/Clovertown_(microprocessor)" title="Clovertown (microprocessor)" class="mw-redirect">Clovertown</a></dd>
+<dd><a href="/wiki/Tigerton_(microprocessor)" title="Tigerton (microprocessor)" class="mw-redirect">Tigerton</a></dd>
+<dt><a href="/wiki/45_nanometer" title="45 nanometer">45&#160;nm</a></dt>
+<dd><a href="/wiki/Penryn_(microprocessor)" title="Penryn (microprocessor)">Penryn</a></dd>
+<dd><a href="/wiki/Penryn_(microprocessor)#Penryn-QC" title="Penryn (microprocessor)">Penryn-QC</a></dd>
+<dd><a href="/wiki/Wolfdale_(microprocessor)" title="Wolfdale (microprocessor)">Wolfdale</a></dd>
+<dd><a href="/wiki/Yorkfield" title="Yorkfield">Yorkfield</a></dd>
+<dd><a href="/wiki/Wolfdale-DP_(microprocessor)" title="Wolfdale-DP (microprocessor)" class="mw-redirect">Wolfdale-DP</a></dd>
+<dd><a href="/wiki/Harpertown_(microprocessor)" title="Harpertown (microprocessor)" class="mw-redirect">Harpertown</a></dd>
+<dd><a href="/wiki/Dunnington_(microprocessor)" title="Dunnington (microprocessor)" class="mw-redirect">Dunnington</a></dd>
+</dl>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style="width:12em"><a href="/wiki/Bonnell_(microarchitecture)" title="Bonnell (microarchitecture)">Bonnell / Saltwell</a></th>
+<td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;width:auto">
+<div style="padding:0em 0.25em">
+<dl>
+<dt>45&#160;nm</dt>
+<dd><a href="/wiki/Silverthorne_(microprocessor)" title="Silverthorne (microprocessor)" class="mw-redirect">Silverthorne</a></dd>
+<dd><a href="/wiki/Diamondville_(microprocessor)" title="Diamondville (microprocessor)" class="mw-redirect">Diamondville</a></dd>
+<dd><a href="/wiki/Pineview_(microprocessor)" title="Pineview (microprocessor)" class="mw-redirect">Pineview</a></dd>
+<dd><a href="/wiki/Lincroft_(microprocessor)" title="Lincroft (microprocessor)" class="mw-redirect">Lincroft</a></dd>
+<dd><a href="/wiki/Tunnel_Creek_(microprocessor)" title="Tunnel Creek (microprocessor)" class="mw-redirect">Tunnel Creek</a></dd>
+<dd><a href="/wiki/Stellarton_(microprocessor)" title="Stellarton (microprocessor)" class="mw-redirect">Stellarton</a></dd>
+<dd><a href="/wiki/Sodaville_(SoC)" title="Sodaville (SoC)" class="mw-redirect">Sodaville</a></dd>
+<dd><a href="/wiki/Groveland_(SoC)" title="Groveland (SoC)" class="mw-redirect">Groveland</a></dd>
+<dt><a href="/wiki/32_nanometer" title="32 nanometer">32&#160;nm</a></dt>
+<dd><a href="/wiki/Cedarview_(microprocessor)" title="Cedarview (microprocessor)" class="mw-redirect">Cedarview</a></dd>
+<dd><a href="/wiki/Penwell_(SoC)" title="Penwell (SoC)" class="mw-redirect">Penwell</a></dd>
+<dd><a href="/wiki/Cloverview_(SoC)" title="Cloverview (SoC)" class="mw-redirect">Cloverview</a></dd>
+<dd><a href="/wiki/Berryville_(SoC)" title="Berryville (SoC)" class="mw-redirect">Berryville</a></dd>
+<dd><a href="/wiki/Centerton_(SoC)" title="Centerton (SoC)" class="mw-redirect">Centerton</a></dd>
+</dl>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style="width:12em"><a href="/wiki/Nehalem_(microarchitecture)" title="Nehalem (microarchitecture)">Nehalem</a> / <a href="/wiki/Westmere_(microarchitecture)" title="Westmere (microarchitecture)">Westmere</a></th>
+<td class="navbox-list navbox-even" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;width:auto">
+<div style="padding:0em 0.25em">
+<dl>
+<dt>45&#160;nm</dt>
+<dd><a href="/wiki/Clarksfield_(microprocessor)" title="Clarksfield (microprocessor)">Clarksfield</a></dd>
+<dd><a href="/wiki/Lynnfield_(microprocessor)" title="Lynnfield (microprocessor)">Lynnfield</a></dd>
+<dd><a href="/wiki/Xeon#C3500.2FC5500-series_.22Jasper_Forest.22" title="Xeon">Jasper Forest</a></dd>
+<dd><a href="/wiki/Bloomfield_(microprocessor)" title="Bloomfield (microprocessor)">Bloomfield</a></dd>
+<dd><a href="/wiki/Xeon#5500-series_.22Gainestown.22" title="Xeon">Gainestown (Nehalem-EP)</a></dd>
+<dd><a href="/wiki/Xeon#6500.2F7500-series_.22Beckton.22" title="Xeon">Beckton (Nehalem-EX)</a></dd>
+<dt>32&#160;nm</dt>
+<dd><a href="/wiki/Arrandale" title="Arrandale">Arrandale</a></dd>
+<dd><a href="/wiki/Clarkdale_(microprocessor)" title="Clarkdale (microprocessor)">Clarkdale</a></dd>
+<dd><a href="/wiki/Gulftown" title="Gulftown">Gulftown (Westmere-EP)</a></dd>
+<dd><a href="/wiki/Nehalem_(microarchitecture)#Westmere" title="Nehalem (microarchitecture)">Westmere-EX</a></dd>
+</dl>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style="width:12em"><a href="/wiki/Sandy_Bridge" title="Sandy Bridge">Sandy Bridge</a> / <a href="/wiki/Ivy_Bridge_(microarchitecture)" title="Ivy Bridge (microarchitecture)">Ivy Bridge</a></th>
+<td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;width:auto">
+<div style="padding:0em 0.25em">
+<dl>
+<dt>32&#160;nm</dt>
+<dd><a href="/wiki/Sandy_Bridge" title="Sandy Bridge">Sandy Bridge</a></dd>
+<dd><a href="/wiki/Sandy_Bridge-E" title="Sandy Bridge-E">Sandy Bridge-E</a></dd>
+<dd>Gladden</dd>
+<dt><a href="/wiki/22_nanometer" title="22 nanometer">22&#160;nm</a></dt>
+<dd><a href="/wiki/Ivy_Bridge_(microarchitecture)" title="Ivy Bridge (microarchitecture)">Ivy Bridge</a></dd>
+<dd>Ivy Bridge-EP</dd>
+<dd>Ivy Bridge-EX</dd>
+</dl>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style="width:12em"><a href="/wiki/Haswell_(microarchitecture)" title="Haswell (microarchitecture)">Haswell</a> / <a href="/wiki/Broadwell_(microarchitecture)" title="Broadwell (microarchitecture)">Broadwell</a></th>
+<td class="navbox-list navbox-even" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;width:auto">
+<div style="padding:0em 0.25em">
+<dl>
+<dt>22&#160;nm</dt>
+<dd><a href="/wiki/Haswell_(microarchitecture)" title="Haswell (microarchitecture)">Haswell</a></dd>
+<dt><a href="/wiki/14_nanometer" title="14 nanometer">14&#160;nm</a></dt>
+<dd><a href="/wiki/Broadwell_(microarchitecture)" title="Broadwell (microarchitecture)">Broadwell</a></dd>
+</dl>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style="width:12em"><a href="/wiki/Silvermont" title="Silvermont">Silvermont / Airmont</a></th>
+<td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;width:auto">
+<div style="padding:0em 0.25em">
+<dl>
+<dt>22&#160;nm</dt>
+<dd>Valleyview</dd>
+<dd>Tangier</dd>
+<dd>Anniedale</dd>
+<dt>14&#160;nm</dt>
+<dd>Cherryview</dd>
+</dl>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style="width:12em;background-color: #E6E6E6">Future</th>
+<td class="navbox-list navbox-even" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;width:auto">
+<div style="padding:0em 0.25em"></div>
+<table class="nowraplinks navbox-subgroup" style="border-spacing:0">
+<tr>
+<th scope="row" class="navbox-group"><a href="/wiki/Skylake_(microarchitecture)" title="Skylake (microarchitecture)">Skylake</a> / <a href="/wiki/Cannonlake" title="Cannonlake">Cannonlake</a></th>
+<td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<dl>
+<dt>14&#160;nm</dt>
+<dd><a href="/wiki/Skylake_(microarchitecture)" title="Skylake (microarchitecture)">Skylake</a></dd>
+<dt><a href="/wiki/10_nanometer" title="10 nanometer">10&#160;nm</a></dt>
+<dd><a href="/wiki/Cannonlake" title="Cannonlake">Cannonlake</a></dd>
+</dl>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+
+
+<!-- 
+NewPP limit report
+Parsed by mw1039
+CPU time usage: 0.400 seconds
+Real time usage: 0.493 seconds
+Preprocessor visited node count: 1560/1000000
+Preprocessor generated node count: 0/1500000
+Post‐expand include size: 102679/2097152 bytes
+Template argument size: 1404/2097152 bytes
+Highest expansion depth: 12/40
+Expensive parser function count: 4/500
+Lua time usage: 0.108/10.000 seconds
+Lua memory usage: 2.53 MB/50 MB
+-->
+
+<!-- 
+Transclusion expansion time report (%,ms,calls,template)
+100.00%  273.410      1 - -total
+ 32.70%   89.415      7 - Template:Navbox
+ 22.07%   60.355      1 - Template:Infobox_CPU
+ 21.64%   59.160      1 - Template:Intel_processors
+ 19.42%   53.098      1 - Template:Infobox
+ 18.69%   51.104      1 - Template:Refimprove
+ 17.12%   46.805      1 - Template:Ambox
+ 16.38%   44.792      1 - Template:Use_mdy_dates
+  8.36%   22.863      1 - Template:Cn
+  8.18%   22.361      2 - Template:Fix
+-->
+
+<!-- Saved in parser cache with key enwiki:pcache:idhash:97302-0!*!0!!en!4!* and timestamp 20150424060543 and revision id 658705370
+ -->
+<noscript><img src="//en.wikipedia.org/wiki/Special:CentralAutoLogin/start?type=1x1" alt="" title="" width="1" height="1" style="border: none; position: absolute;" /></noscript></div>									<div class="printfooter">
+						Retrieved from "<a dir="ltr" href="http://en.wikipedia.org/w/index.php?title=Intel_8085&amp;oldid=658705370">http://en.wikipedia.org/w/index.php?title=Intel_8085&amp;oldid=658705370</a>"					</div>
+													<div id='catlinks' class='catlinks'><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/wiki/Help:Category" title="Help:Category">Categories</a>: <ul><li><a href="/wiki/Category:Intel_x86_microprocessors" title="Category:Intel x86 microprocessors">Intel x86 microprocessors</a></li><li><a href="/wiki/Category:Intel_microprocessors" title="Category:Intel microprocessors">Intel microprocessors</a></li></ul></div><div id="mw-hidden-catlinks" class="mw-hidden-catlinks mw-hidden-cats-hidden">Hidden categories: <ul><li><a href="/wiki/Category:Use_mdy_dates_from_October_2011" title="Category:Use mdy dates from October 2011">Use mdy dates from October 2011</a></li><li><a href="/wiki/Category:Articles_needing_additional_references_from_June_2010" title="Category:Articles needing additional references from June 2010">Articles needing additional references from June 2010</a></li><li><a href="/wiki/Category:All_articles_needing_additional_references" title="Category:All articles needing additional references">All articles needing additional references</a></li><li><a href="/wiki/Category:All_articles_with_unsourced_statements" title="Category:All articles with unsourced statements">All articles with unsourced statements</a></li><li><a href="/wiki/Category:Articles_with_unsourced_statements_from_October_2014" title="Category:Articles with unsourced statements from October 2014">Articles with unsourced statements from October 2014</a></li><li><a href="/wiki/Category:Articles_with_unsourced_statements_from_February_2011" title="Category:Articles with unsourced statements from February 2011">Articles with unsourced statements from February 2011</a></li></ul></div></div>												<div class="visualClear"></div>
+							</div>
+		</div>
+		<div id="mw-navigation">
+			<h2>Navigation menu</h2>
+
+			<div id="mw-head">
+									<div id="p-personal" role="navigation" class="" aria-labelledby="p-personal-label">
+						<h3 id="p-personal-label">Personal tools</h3>
+						<ul>
+							<li id="pt-createaccount"><a href="/w/index.php?title=Special:UserLogin&amp;returnto=Intel+8085&amp;type=signup" title="You are encouraged to create an account and log in; however, it is not mandatory">Create account</a></li><li id="pt-login"><a href="/w/index.php?title=Special:UserLogin&amp;returnto=Intel+8085" title="You're encouraged to log in; however, it's not mandatory. [o]" accesskey="o">Log in</a></li>						</ul>
+					</div>
+									<div id="left-navigation">
+										<div id="p-namespaces" role="navigation" class="vectorTabs" aria-labelledby="p-namespaces-label">
+						<h3 id="p-namespaces-label">Namespaces</h3>
+						<ul>
+															<li  id="ca-nstab-main" class="selected"><span><a href="/wiki/Intel_8085"  title="View the content page [c]" accesskey="c">Article</a></span></li>
+															<li  id="ca-talk"><span><a href="/wiki/Talk:Intel_8085"  title="Discussion about the content page [t]" accesskey="t">Talk</a></span></li>
+													</ul>
+					</div>
+										<div id="p-variants" role="navigation" class="vectorMenu emptyPortlet" aria-labelledby="p-variants-label">
+												<h3 id="p-variants-label"><span>Variants</span><a href="#"></a></h3>
+
+						<div class="menu">
+							<ul>
+															</ul>
+						</div>
+					</div>
+									</div>
+				<div id="right-navigation">
+										<div id="p-views" role="navigation" class="vectorTabs" aria-labelledby="p-views-label">
+						<h3 id="p-views-label">Views</h3>
+						<ul>
+															<li id="ca-view" class="selected"><span><a href="/wiki/Intel_8085" >Read</a></span></li>
+															<li id="ca-edit"><span><a href="/w/index.php?title=Intel_8085&amp;action=edit"  title="You can edit this page. Please use the preview button before saving [e]" accesskey="e">Edit</a></span></li>
+															<li id="ca-history" class="collapsible"><span><a href="/w/index.php?title=Intel_8085&amp;action=history"  title="Past versions of this page [h]" accesskey="h">View history</a></span></li>
+													</ul>
+					</div>
+										<div id="p-cactions" role="navigation" class="vectorMenu emptyPortlet" aria-labelledby="p-cactions-label">
+						<h3 id="p-cactions-label"><span>More</span><a href="#"></a></h3>
+
+						<div class="menu">
+							<ul>
+															</ul>
+						</div>
+					</div>
+										<div id="p-search" role="search">
+						<h3>
+							<label for="searchInput">Search</label>
+						</h3>
+
+						<form action="/w/index.php" id="searchform">
+														<div id="simpleSearch">
+															<input type="search" name="search" placeholder="Search" title="Search Wikipedia [f]" accesskey="f" id="searchInput" /><input type="hidden" value="Special:Search" name="title" /><input type="submit" name="fulltext" value="Search" title="Search Wikipedia for this text" id="mw-searchButton" class="searchButton mw-fallbackSearchButton" /><input type="submit" name="go" value="Go" title="Go to a page with this exact name if one exists" id="searchButton" class="searchButton" />								</div>
+						</form>
+					</div>
+									</div>
+			</div>
+			<div id="mw-panel">
+				<div id="p-logo" role="banner"><a class="mw-wiki-logo" href="/wiki/Main_Page"  title="Visit the main page"></a></div>
+						<div class="portal" role="navigation" id='p-navigation' aria-labelledby='p-navigation-label'>
+			<h3 id='p-navigation-label'>Navigation</h3>
+
+			<div class="body">
+									<ul>
+													<li id="n-mainpage-description"><a href="/wiki/Main_Page" title="Visit the main page [z]" accesskey="z">Main page</a></li>
+													<li id="n-contents"><a href="/wiki/Portal:Contents" title="Guides to browsing Wikipedia">Contents</a></li>
+													<li id="n-featuredcontent"><a href="/wiki/Portal:Featured_content" title="Featured content – the best of Wikipedia">Featured content</a></li>
+													<li id="n-currentevents"><a href="/wiki/Portal:Current_events" title="Find background information on current events">Current events</a></li>
+													<li id="n-randompage"><a href="/wiki/Special:Random" title="Load a random article [x]" accesskey="x">Random article</a></li>
+													<li id="n-sitesupport"><a href="https://donate.wikimedia.org/wiki/Special:FundraiserRedirector?utm_source=donate&amp;utm_medium=sidebar&amp;utm_campaign=C13_en.wikipedia.org&amp;uselang=en" title="Support us">Donate to Wikipedia</a></li>
+													<li id="n-shoplink"><a href="//shop.wikimedia.org" title="Visit the Wikimedia Shop">Wikipedia store</a></li>
+											</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id='p-interaction' aria-labelledby='p-interaction-label'>
+			<h3 id='p-interaction-label'>Interaction</h3>
+
+			<div class="body">
+									<ul>
+													<li id="n-help"><a href="/wiki/Help:Contents" title="Guidance on how to use and edit Wikipedia">Help</a></li>
+													<li id="n-aboutsite"><a href="/wiki/Wikipedia:About" title="Find out about Wikipedia">About Wikipedia</a></li>
+													<li id="n-portal"><a href="/wiki/Wikipedia:Community_portal" title="About the project, what you can do, where to find things">Community portal</a></li>
+													<li id="n-recentchanges"><a href="/wiki/Special:RecentChanges" title="A list of recent changes in the wiki [r]" accesskey="r">Recent changes</a></li>
+													<li id="n-contactpage"><a href="//en.wikipedia.org/wiki/Wikipedia:Contact_us">Contact page</a></li>
+											</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id='p-tb' aria-labelledby='p-tb-label'>
+			<h3 id='p-tb-label'>Tools</h3>
+
+			<div class="body">
+									<ul>
+													<li id="t-whatlinkshere"><a href="/wiki/Special:WhatLinksHere/Intel_8085" title="List of all English Wikipedia pages containing links to this page [j]" accesskey="j">What links here</a></li>
+													<li id="t-recentchangeslinked"><a href="/wiki/Special:RecentChangesLinked/Intel_8085" title="Recent changes in pages linked from this page [k]" accesskey="k">Related changes</a></li>
+													<li id="t-upload"><a href="/wiki/Wikipedia:File_Upload_Wizard" title="Upload files [u]" accesskey="u">Upload file</a></li>
+													<li id="t-specialpages"><a href="/wiki/Special:SpecialPages" title="A list of all special pages [q]" accesskey="q">Special pages</a></li>
+													<li id="t-permalink"><a href="/w/index.php?title=Intel_8085&amp;oldid=658705370" title="Permanent link to this revision of the page">Permanent link</a></li>
+													<li id="t-info"><a href="/w/index.php?title=Intel_8085&amp;action=info" title="More information about this page">Page information</a></li>
+													<li id="t-wikibase"><a href="//www.wikidata.org/wiki/Q468451" title="Link to connected data repository item [g]" accesskey="g">Wikidata item</a></li>
+						<li id="t-cite"><a href="/w/index.php?title=Special:CiteThisPage&amp;page=Intel_8085&amp;id=658705370" title="Information on how to cite this page">Cite this page</a></li>					</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id='p-coll-print_export' aria-labelledby='p-coll-print_export-label'>
+			<h3 id='p-coll-print_export-label'>Print/export</h3>
+
+			<div class="body">
+									<ul>
+													<li id="coll-create_a_book"><a href="/w/index.php?title=Special:Book&amp;bookcmd=book_creator&amp;referer=Intel+8085">Create a book</a></li>
+													<li id="coll-download-as-rdf2latex"><a href="/w/index.php?title=Special:Book&amp;bookcmd=render_article&amp;arttitle=Intel+8085&amp;oldid=658705370&amp;writer=rdf2latex">Download as PDF</a></li>
+													<li id="t-print"><a href="/w/index.php?title=Intel_8085&amp;printable=yes" title="Printable version of this page [p]" accesskey="p">Printable version</a></li>
+											</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id='p-lang' aria-labelledby='p-lang-label'>
+			<h3 id='p-lang-label'>Languages</h3>
+
+			<div class="body">
+									<ul>
+													<li class="interlanguage-link interwiki-as"><a href="//as.wikipedia.org/wiki/%E0%A6%87%E0%A6%A3%E0%A7%8D%E0%A6%9F%E0%A7%87%E0%A6%B2_%E0%A7%AE%E0%A7%A6%E0%A7%AE%E0%A7%AB" title="ইণ্টেল ৮০৮৫ – Assamese" lang="as" hreflang="as">অসমীয়া</a></li>
+													<li class="interlanguage-link interwiki-ca"><a href="//ca.wikipedia.org/wiki/Intel_8085" title="Intel 8085 – Catalan" lang="ca" hreflang="ca">Català</a></li>
+													<li class="interlanguage-link interwiki-cs"><a href="//cs.wikipedia.org/wiki/Intel_8085" title="Intel 8085 – Czech" lang="cs" hreflang="cs">Čeština</a></li>
+													<li class="interlanguage-link interwiki-de"><a href="//de.wikipedia.org/wiki/Intel_8085" title="Intel 8085 – German" lang="de" hreflang="de">Deutsch</a></li>
+													<li class="interlanguage-link interwiki-et"><a href="//et.wikipedia.org/wiki/Intel_8085" title="Intel 8085 – Estonian" lang="et" hreflang="et">Eesti</a></li>
+													<li class="interlanguage-link interwiki-el"><a href="//el.wikipedia.org/wiki/Intel_8085" title="Intel 8085 – Greek" lang="el" hreflang="el">Ελληνικά</a></li>
+													<li class="interlanguage-link interwiki-es"><a href="//es.wikipedia.org/wiki/Intel_8085" title="Intel 8085 – Spanish" lang="es" hreflang="es">Español</a></li>
+													<li class="interlanguage-link interwiki-fa"><a href="//fa.wikipedia.org/wiki/%D8%A7%DB%8C%D9%86%D8%AA%D9%84_%DB%B8%DB%B0%DB%B8%DB%B5" title="اینتل ۸۰۸۵ – Persian" lang="fa" hreflang="fa">فارسی</a></li>
+													<li class="interlanguage-link interwiki-fr"><a href="//fr.wikipedia.org/wiki/Intel_8085" title="Intel 8085 – French" lang="fr" hreflang="fr">Français</a></li>
+													<li class="interlanguage-link interwiki-ko"><a href="//ko.wikipedia.org/wiki/%EC%9D%B8%ED%85%94_8085" title="인텔 8085 – Korean" lang="ko" hreflang="ko">한국어</a></li>
+													<li class="interlanguage-link interwiki-hi"><a href="//hi.wikipedia.org/wiki/%E0%A4%87%E0%A4%82%E0%A4%9F%E0%A5%87%E0%A4%B2_%E0%A4%95%E0%A4%BE_8085" title="इंटेल का 8085 – Hindi" lang="hi" hreflang="hi">हिन्दी</a></li>
+													<li class="interlanguage-link interwiki-hr"><a href="//hr.wikipedia.org/wiki/Intel_8085" title="Intel 8085 – Croatian" lang="hr" hreflang="hr">Hrvatski</a></li>
+													<li class="interlanguage-link interwiki-id"><a href="//id.wikipedia.org/wiki/Intel_8085" title="Intel 8085 – Indonesian" lang="id" hreflang="id">Bahasa Indonesia</a></li>
+													<li class="interlanguage-link interwiki-it"><a href="//it.wikipedia.org/wiki/Intel_8085" title="Intel 8085 – Italian" lang="it" hreflang="it">Italiano</a></li>
+													<li class="interlanguage-link interwiki-hu"><a href="//hu.wikipedia.org/wiki/Intel_8085" title="Intel 8085 – Hungarian" lang="hu" hreflang="hu">Magyar</a></li>
+													<li class="interlanguage-link interwiki-ml"><a href="//ml.wikipedia.org/wiki/%E0%B4%87%E0%B4%A8%E0%B5%8D%E0%B4%B1%E0%B5%BD_8085" title="ഇന്റൽ 8085 – Malayalam" lang="ml" hreflang="ml">മലയാളം</a></li>
+													<li class="interlanguage-link interwiki-nl"><a href="//nl.wikipedia.org/wiki/Intel_8085" title="Intel 8085 – Dutch" lang="nl" hreflang="nl">Nederlands</a></li>
+													<li class="interlanguage-link interwiki-ja"><a href="//ja.wikipedia.org/wiki/Intel_8085" title="Intel 8085 – Japanese" lang="ja" hreflang="ja">日本語</a></li>
+													<li class="interlanguage-link interwiki-pl"><a href="//pl.wikipedia.org/wiki/Intel_8085" title="Intel 8085 – Polish" lang="pl" hreflang="pl">Polski</a></li>
+													<li class="interlanguage-link interwiki-pt"><a href="//pt.wikipedia.org/wiki/Intel_8085" title="Intel 8085 – Portuguese" lang="pt" hreflang="pt">Português</a></li>
+													<li class="interlanguage-link interwiki-ru"><a href="//ru.wikipedia.org/wiki/8085" title="8085 – Russian" lang="ru" hreflang="ru">Русский</a></li>
+													<li class="interlanguage-link interwiki-sk"><a href="//sk.wikipedia.org/wiki/Intel_8085" title="Intel 8085 – Slovak" lang="sk" hreflang="sk">Slovenčina</a></li>
+													<li class="interlanguage-link interwiki-sr"><a href="//sr.wikipedia.org/wiki/Intel_8085" title="Intel 8085 – Serbian" lang="sr" hreflang="sr">Српски / srpski</a></li>
+													<li class="interlanguage-link interwiki-fi"><a href="//fi.wikipedia.org/wiki/Intel_8085" title="Intel 8085 – Finnish" lang="fi" hreflang="fi">Suomi</a></li>
+													<li class="interlanguage-link interwiki-sv"><a href="//sv.wikipedia.org/wiki/Intel_8085" title="Intel 8085 – Swedish" lang="sv" hreflang="sv">Svenska</a></li>
+													<li class="interlanguage-link interwiki-tr"><a href="//tr.wikipedia.org/wiki/Intel_8085" title="Intel 8085 – Turkish" lang="tr" hreflang="tr">Türkçe</a></li>
+													<li class="interlanguage-link interwiki-uk"><a href="//uk.wikipedia.org/wiki/Intel_8085" title="Intel 8085 – Ukrainian" lang="uk" hreflang="uk">Українська</a></li>
+													<li class="interlanguage-link interwiki-zh"><a href="//zh.wikipedia.org/wiki/Intel_8085" title="Intel 8085 – Chinese" lang="zh" hreflang="zh">中文</a></li>
+													<li class="uls-p-lang-dummy"><a href="#"></a></li>
+											</ul>
+				<div class='after-portlet after-portlet-lang'><span class="wb-langlinks-edit wb-langlinks-link"><a href="//www.wikidata.org/wiki/Q468451#sitelinks-wikipedia" title="Edit interlanguage links" class="wbc-editpage">Edit links</a></span></div>			</div>
+		</div>
+				</div>
+		</div>
+		<div id="footer" role="contentinfo">
+							<ul id="footer-info">
+											<li id="footer-info-lastmod"> This page was last modified on 22 April 2015, at 20:17.</li>
+											<li id="footer-info-copyright">Text is available under the <a rel="license" href="//en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License">Creative Commons Attribution-ShareAlike License</a><a rel="license" href="//creativecommons.org/licenses/by-sa/3.0/" style="display:none;"></a>;
+additional terms may apply.  By using this site, you agree to the <a href="//wikimediafoundation.org/wiki/Terms_of_Use">Terms of Use</a> and <a href="//wikimediafoundation.org/wiki/Privacy_policy">Privacy Policy</a>. Wikipedia® is a registered trademark of the <a href="//www.wikimediafoundation.org/">Wikimedia Foundation, Inc.</a>, a non-profit organization.</li>
+									</ul>
+							<ul id="footer-places">
+											<li id="footer-places-privacy"><a href="//wikimediafoundation.org/wiki/Privacy_policy" title="wikimedia:Privacy policy">Privacy policy</a></li>
+											<li id="footer-places-about"><a href="/wiki/Wikipedia:About" title="Wikipedia:About">About Wikipedia</a></li>
+											<li id="footer-places-disclaimer"><a href="/wiki/Wikipedia:General_disclaimer" title="Wikipedia:General disclaimer">Disclaimers</a></li>
+											<li id="footer-places-contact"><a href="//en.wikipedia.org/wiki/Wikipedia:Contact_us">Contact Wikipedia</a></li>
+											<li id="footer-places-developers"><a href="https://www.mediawiki.org/wiki/Special:MyLanguage/How_to_contribute">Developers</a></li>
+											<li id="footer-places-mobileview"><a href="//en.m.wikipedia.org/w/index.php?title=Intel_8085&amp;mobileaction=toggle_view_mobile" class="noprint stopMobileRedirectToggle">Mobile view</a></li>
+									</ul>
+										<ul id="footer-icons" class="noprint">
+											<li id="footer-copyrightico">
+															<a href="//wikimediafoundation.org/"><img src="//bits.wikimedia.org/images/wikimedia-button.png" srcset="//bits.wikimedia.org/images/wikimedia-button-1.5x.png 1.5x, //bits.wikimedia.org/images/wikimedia-button-2x.png 2x" width="88" height="31" alt="Wikimedia Foundation"/></a>
+													</li>
+											<li id="footer-poweredbyico">
+															<a href="//www.mediawiki.org/"><img src="//bits.wikimedia.org/static-1.26wmf2/resources/assets/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" srcset="//bits.wikimedia.org/static-1.26wmf2/resources/assets/poweredby_mediawiki_132x47.png 1.5x, //bits.wikimedia.org/static-1.26wmf2/resources/assets/poweredby_mediawiki_176x62.png 2x" width="88" height="31" /></a>
+													</li>
+									</ul>
+						<div style="clear:both"></div>
+		</div>
+		<script>if(window.jQuery)jQuery.ready();</script><script>if(window.mw){
+mw.loader.state({"ext.globalCssJs.site":"ready","ext.globalCssJs.user":"ready","site":"loading","user":"ready","user.groups":"ready"});
+}</script>
+<script>if(window.mw){
+mw.loader.load(["ext.cite","mediawiki.toc","mediawiki.action.view.postEdit","mediawiki.user","mediawiki.hidpi","mediawiki.page.ready","mediawiki.searchSuggest","ext.gadget.teahouse","ext.gadget.ReferenceTooltips","ext.gadget.DRN-wizard","ext.gadget.charinsert","ext.gadget.refToolbar","ext.gadget.switcher","ext.gadget.featured-articles-links","ext.cirrusSearch.loggingSchema","mmv.bootstrap.autostart","ext.imageMetrics.loader","ext.visualEditor.targetLoader","ext.eventLogging.subscriber","ext.wikimediaEvents.statsd","ext.navigationTiming","schema.UniversalLanguageSelector","ext.uls.eventlogger","ext.uls.interlanguage","ext.wikigrok.startup"],null,true);
+}</script>
+<script>if(window.mw){
+document.write("\u003Cscript src=\"//bits.wikimedia.org/en.wikipedia.org/load.php?debug=false\u0026amp;lang=en\u0026amp;modules=site\u0026amp;only=scripts\u0026amp;skin=vector\u0026amp;*\"\u003E\u003C/script\u003E");
+}</script>
+<script>if(window.mw){
+mw.config.set({"wgBackendResponseTime":97,"wgHostname":"mw1212"});
+}</script>
+	</body>
+</html>

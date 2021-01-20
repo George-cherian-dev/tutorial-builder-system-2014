@@ -1,0 +1,33 @@
+We built an automated essay scoring system
+to score approximately 13,000 essay from
+an online Machine Learning competition on
+Kaggle.com. There are 8 di
+erent essay topics
+and as such, the essays were divided into
+8 sets which di
+ered signiWe built an automated essay scoring system
+to score approximately 13,000 essay from
+an online Machine Learning competition on
+Kaggle.com. There are 8 di
+erent essay topics
+and as such, the essays were divided into
+8 sets which di
+ered signicantly in their responses
+to the our features and evaluation.
+Our focus for this essay grading was the style
+of the essay, to which we extended by adding
+the category of maturity. We evaluated Linear
+Regression, Regression Tree, Linear Discriminant
+Analysis, and Support Vector Machines
+on our features and discovered that
+SVM achieved the best results with an average
+ = 0:78.cantly in their responses
+to the our features and evaluation.
+Our focus for this essay grading was the style
+of the essay, to which we extended by adding
+the category of maturity. We evaluated Linear
+Regression, Regression Tree, Linear Discriminant
+Analysis, and Support Vector Machines
+on our features and discovered that
+SVM achieved the best results with an average
+ = 0:78.

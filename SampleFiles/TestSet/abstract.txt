@@ -1,0 +1,5 @@
+Abstract
+
+
+The Tutorial Builder System is being built as a solution to the long standing problem of learning topics via the internet being a rather difficult and arduous process, with all the information needed to properly understand a topic scattered about multiple pages and sometimes the pages which hold information in an easy to understand format may not even be found. Thus our system aims to solve this problem by crawling the internet for data relevant to a single topic and then appropriately ranking it based on a set of criteria and passing the highest ranked tutorial out of all the raw data found to the user so that he may easily understand the topic by only looking through a single website which holds all the necessary information presented in a timely and comparatively smaller format as compared to the data which is found after researching the same topic via a search engine.
+The Tutorial Builder System will mainly have a user interface, a tutorial cache, a crawler infrastructure,a general controller system and a ranking infrastructure which will all be used in conjunction with each other to give the user a tutorial for each topic.
